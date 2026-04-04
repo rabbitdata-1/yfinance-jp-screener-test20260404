@@ -1,0 +1,35 @@
+services:
+  # Pythonデータ収集サービス
+  python-service:
+    build:
+      context: .
+      dockerfile: Dockerfile.fetch
+    container_name: stock-data-collector
+    env_file:
+      - .env
+    volumes:
+      # 株式データディレクトリをマウント
+      - ./stock_list:/app:rw
+      # Exportディレクトリを共有
+      - ./stock_list/Export:/app/Export:rw
+    environment:
+      - PYTHONUNBUFFERED=1
+      - STOCK_FILE=${STOCK_FILE:-stocks_sample.json}
+      - CHUNK_SIZE=${CHUNK_SIZE:-1000}
+    restart: "no"
+
+  # React フロントエンドサービス
+  frontend-service:
+    build:
+      context: .
+      dockerfile: Dockerfile.app
+    container_name: stock-frontend
+    env_file:
+      - .env
+    ports:
+      - "${PORT:-8080}:80"
+    environment:
+      - NODE_ENV=${NODE_ENV:-production}
+      - PORT=${PORT:-8080}
+    command: >
+      sh -c "echo 'Frontend running on http://localhost:${PORT:-8080}' && nginx -g 'daemon off;'"

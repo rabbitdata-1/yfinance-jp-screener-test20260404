@@ -1,0 +1,297 @@
+#!/usr/bin/env python3
+"""
+Latest CSV Combiner for Japanese Stock Data
+最新のCSVファイルを結合して日付付きのファイルを生成するスクリプト
+
+Purpose:
+- Exportディレクトリから最新のCSVファイルを特定
+- 複数のCSVファイルを結合して一つの統合ファイルを作成
+- 日付_combined.csv形式でファイル名を生成
+"""
+
+import os
+import glob
+import pandas as pd
+from datetime import datetime
+import argparse
+import logging
+
+# ログ設定
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s",
+    handlers=[
+        logging.FileHandler("combine_csv.log", encoding="utf-8"),
+        logging.StreamHandler(),
+    ],
+)
+logger = logging.getLogger(__name__)
+
+
+def get_latest_csv_files(export_dir="./Export", target_date=None, market_type=None):
+    """
+    Exportディレクトリから最新のCSVファイルを取得
+
+    Args:
+        export_dir (str): CSVファイルが格納されているディレクトリ（デフォルト: "./Export"）
+        target_date (str): 対象日付 (YYYYMMDD形式、Noneの場合は今日の日付を使用)
+        market_type (str, optional): 市場タイプ（"JP" または "US"）
+            - Noneの場合は両方のファイルを取得
+
+    Returns:
+        list: 最新のCSVファイルのリスト（対象日付のもののみ）
+            - 更新日時でソート済み（最新順）
+            - 空リストの場合は該当ファイルなし
+
+    Note:
+        - ファイル名パターン: "japanese_stocks_data_*.csv" または "us_stocks_data_*.csv"
+        - 対象日付が含まれるファイルのみを抽出
+        - 各ファイルの詳細情報（更新日時）をログ出力
+
+    Examples:
+        >>> files = get_latest_csv_files("./Export", "20251020")
+        >>> len(files)
+        4
+        >>> files[0]
+        './Export/japanese_stocks_data_1_20251020_123456.csv'
+    """
+    # CSVファイルのパターンを定義（市場タイプに応じて）
+    if market_type == "US":
+        patterns = [os.path.join(export_dir, "us_stocks_data_*.csv")]
+    elif market_type == "JP":
+        patterns = [os.path.join(export_dir, "japanese_stocks_data_*.csv")]
+    else:
+        # 両方のパターンを検索
+        patterns = [
+            os.path.join(export_dir, "japanese_stocks_data_*.csv"),
+            os.path.join(export_dir, "us_stocks_data_*.csv"),
+        ]
+
+    # すべてのパターンからCSVファイルを取得
+    all_csv_files = []
+    for pattern in patterns:
+        all_csv_files.extend(glob.glob(pattern))
+
+    if not all_csv_files:
+        pattern_str = " または ".join(patterns)
+        logger.warning(f"CSVファイルが見つかりません: {pattern_str}")
+        return []
+
+    # 対象日付を決定
+    if target_date is None:
+        target_date = datetime.now().strftime("%Y%m%d")
+
+    logger.info(f"対象日付: {target_date}")
+
+    # 今日の日付のファイルのみをフィルタリング
+    csv_files = [f for f in all_csv_files if target_date in os.path.basename(f)]
+
+    if not csv_files:
+        logger.warning(f"⚠️  {target_date} のCSVファイルが見つかりません")
+        logger.info(f"全{len(all_csv_files)}個のファイルから検索しましたが、該当なし")
+        return []
+
+    # ファイルの更新日時でソート（最新順）
+    csv_files.sort(key=os.path.getmtime, reverse=True)
+
+    # 各ファイルの情報をログ出力
+    logger.info(f"✅ {target_date} のCSVファイル: {len(csv_files)}個")
+    for i, file in enumerate(csv_files):
+        mod_time = datetime.fromtimestamp(os.path.getmtime(file))
+        logger.info(f"  {i + 1}. {os.path.basename(file)} (更新日時: {mod_time})")
+
+    return csv_files
+
+
+def get_today_date():
+    """
+    今日の日付をYYYYMMDD形式で取得
+
+    Returns:
+        str: 今日の日付（YYYYMMDD形式）
+
+    Examples:
+        >>> date = get_today_date()
+        >>> len(date)
+        8
+        >>> date
+        '20251020'
+    """
+    return datetime.now().strftime("%Y%m%d")
+
+
+def combine_csv_files(csv_files, output_file):
+    """
+    複数のCSVファイルを結合して一つのファイルに保存
+
+    Args:
+        csv_files (list): 結合するCSVファイルのリスト（絶対パスまたは相対パス）
+        output_file (str): 出力ファイル名（パスを含む）
+
+    Returns:
+        bool: 成功した場合True、失敗した場合False
+
+    Note:
+        - UTF-8エンコーディングでCSVを読み込み・保存
+        - BOM（Byte Order Mark）を自動除去
+        - 銘柄コードをキーとして重複データを除去（最新を保持）
+        - 結合後のデータ統計（行数、列数、ファイルサイズ）をログ出力
+        - 出力ディレクトリが存在しない場合は自動作成
+
+    Raises:
+        Exception: CSVファイル読み込み・結合・保存時のエラー
+
+    Examples:
+        >>> files = ['file1.csv', 'file2.csv', 'file3.csv']
+        >>> combine_csv_files(files, 'Export/20251020_combined.csv')
+        True
+    """
+    try:
+        combined_data = []
+        total_rows = 0
+
+        for csv_file in csv_files:
+            logger.info(f"読み込み中: {os.path.basename(csv_file)}")
+
+            # CSVファイルを読み込み（日本語対応）
+            df = pd.read_csv(csv_file, encoding="utf-8")
+
+            # BOM（Byte Order Mark）を除去
+            if df.columns[0].startswith("\ufeff"):
+                df.columns = [df.columns[0].replace("\ufeff", "")] + df.columns[1:].tolist()
+
+            # データの基本情報をログ出力
+            logger.info(f"  - 行数: {len(df)}, 列数: {len(df.columns)}")
+
+            combined_data.append(df)
+            total_rows += len(df)
+
+        if not combined_data:
+            logger.error("結合するデータがありません")
+            return False
+
+        # データを結合（重複排除）
+        logger.info("CSVファイルを結合中...")
+        combined_df = pd.concat(combined_data, ignore_index=True)
+
+        # 重複データの除去（銘柄コードベース）
+        if "銘柄コード" in combined_df.columns:
+            before_dedup = len(combined_df)
+            combined_df = combined_df.drop_duplicates(subset=["銘柄コード"], keep="last")
+            after_dedup = len(combined_df)
+            logger.info(f"重複除去: {before_dedup} → {after_dedup} 行 ({before_dedup - after_dedup}行を除去)")
+
+        # 出力ディレクトリを作成
+        os.makedirs(os.path.dirname(output_file), exist_ok=True)
+
+        # 結合されたデータを保存
+        combined_df.to_csv(output_file, index=False, encoding="utf-8")
+
+        logger.info(f"✅ 結合完了: {output_file}")
+        logger.info(f"   - 総行数: {len(combined_df)}")
+        logger.info(f"   - 総列数: {len(combined_df.columns)}")
+        logger.info(f"   - ファイルサイズ: {os.path.getsize(output_file) / (1024 * 1024):.2f} MB")
+
+        return True
+
+    except Exception as e:
+        logger.error(f"❌ CSVファイル結合中にエラーが発生: {str(e)}")
+        return False
+
+
+def main():
+    """
+    メイン実行関数
+
+    コマンドライン引数を解析し、CSV結合処理を実行します。
+
+    Returns:
+        bool: 処理成功時True、失敗時False
+
+    Note:
+        - argparseでコマンドライン引数を解析
+        - --export-dir: CSVファイルの入力ディレクトリ（デフォルト: ./Export）
+        - --output-dir: 結合ファイルの出力ディレクトリ（デフォルト: ./Export）
+        - --date: 対象日付（YYYYMMDD形式、未指定時は今日の日付）
+        - GitHub Actions向けに出力ファイルパスをprint
+
+    Examples:
+        実行例:
+            $ python combine_latest_csv.py
+            $ python combine_latest_csv.py --date 20251020
+            $ python combine_latest_csv.py --export-dir ./data --output-dir ./output
+
+    Exit Codes:
+        0: 成功
+        1: 失敗
+    """
+    parser = argparse.ArgumentParser(description="最新のCSVファイルを結合して日付付きファイルを生成")
+    parser.add_argument(
+        "--export-dir",
+        default="./Export",
+        help="CSVファイルが格納されているディレクトリ (デフォルト: ./Export)",
+    )
+    parser.add_argument(
+        "--output-dir",
+        default="./Export",
+        help="出力ディレクトリ (デフォルト: ./Export)",
+    )
+    parser.add_argument(
+        "--date",
+        default=None,
+        help="使用する日付 (YYYYMMDD形式、未指定の場合は今日の日付)",
+    )
+    parser.add_argument(
+        "--market-type",
+        choices=["JP", "US"],
+        default=None,
+        help="市場タイプ (JP: 日本株, US: 米国株, 未指定: 両方)",
+    )
+
+    args = parser.parse_args()
+
+    # 実行開始ログ
+    logger.info("=" * 60)
+    logger.info("🚀 Latest CSV Combiner 実行開始")
+    logger.info("=" * 60)
+
+    # 対象日付を決定
+    target_date = args.date if args.date else get_today_date()
+
+    # 指定日付のCSVファイルを取得
+    csv_files = get_latest_csv_files(args.export_dir, target_date, args.market_type)
+
+    if not csv_files:
+        logger.error(f"❌ {target_date} のCSVファイルが見つかりません")
+        return False
+
+    # 出力ファイル名を生成（市場タイプに応じて）
+    if args.market_type == "US":
+        output_filename = f"{target_date}_us_combined.csv"
+    elif args.market_type == "JP":
+        output_filename = f"{target_date}_jp_combined.csv"
+    else:
+        output_filename = f"{target_date}_combined.csv"
+    output_path = os.path.join(args.output_dir, output_filename)
+
+    logger.info(f"📁 出力ファイル: {output_path}")
+
+    # CSVファイルを結合
+    success = combine_csv_files(csv_files, output_path)
+
+    if success:
+        logger.info("=" * 60)
+        logger.info("✅ CSV結合処理が正常に完了しました")
+        logger.info("=" * 60)
+        print(f"OUTPUT_FILE={output_path}")  # GitHub Actions用の出力
+        return True
+    else:
+        logger.error("=" * 60)
+        logger.error("❌ CSV結合処理が失敗しました")
+        logger.error("=" * 60)
+        return False
+
+
+if __name__ == "__main__":
+    success = main()
+    exit(0 if success else 1)
