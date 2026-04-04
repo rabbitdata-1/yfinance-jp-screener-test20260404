@@ -31501,3 +31501,13 @@
 2026-04-04 17:28:09,258 - ERROR - $6060.T: possibly delisted; no price data found  (period=6mo) (Yahoo error = "No data found, symbol may be delisted")
 2026-04-04 17:28:38,263 - INFO - 📄 Part CSV出力: Export/20260404_2.csv
 2026-04-04 17:28:38,459 - INFO - 📊 結合CSV出力: Export/20260404_combined.csv
+2026-04-04 17:29:06,536 - INFO - yfinance version: 1.2.0
+2026-04-04 17:37:45,517 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 6312.T"}}}
+2026-04-04 17:37:46,621 - ERROR - $6312.T: possibly delisted; no price data found  (period=6mo) (Yahoo error = "No data found, symbol may be delisted")
+2026-04-04 17:46:42,026 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 6542.T"}}}
+2026-04-04 17:46:43,198 - ERROR - $6542.T: possibly delisted; no price data found  (period=6mo) (Yahoo error = "No data found, symbol may be delisted")
+2026-04-04 18:00:20,496 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 6957.T"}}}
+2026-04-04 18:00:21,858 - ERROR - $6957.T: possibly delisted; no price data found  (period=6mo) (Yahoo error = "No data found, symbol may be delisted")
+2026-04-04 18:20:45,869 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 75505
+2026-04-04 18:32:33,602 - INFO - 📄 Part CSV出力: Export/20260404_3.csv
+2026-04-04 18:32:33,785 - INFO - 📊 結合CSV出力: Export/20260404_combined.csv
