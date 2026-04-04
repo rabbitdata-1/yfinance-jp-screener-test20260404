@@ -81,6 +81,18 @@ jobs:
           echo "📄 Generated files:"
           ls -la Export/*_combined.csv 2>/dev/null || echo "No combined files generated"
 
+      - name: 🕷️ Fetch Karauri short ratio data
+        run: |
+          echo "🚀 空売り比率データ取得開始..."
+          COMBINED_CSV=$(ls -t stock_list/Export/*_combined.csv 2>/dev/null | head -1)
+          if [ -z "$COMBINED_CSV" ]; then
+            echo "❌ combined.csvが見つかりません"
+            exit 1
+          fi
+          echo "📄 対象ファイル: $COMBINED_CSV"
+          python fetch_karauri_short.py --combined "$COMBINED_CSV" --threshold 5.0
+          echo "✅ 空売り比率データのマージ完了"
+
       - name: 📊 Show combination results
         working-directory: ./stock_list
         run: |
