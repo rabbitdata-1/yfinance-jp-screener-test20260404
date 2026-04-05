@@ -82,9 +82,10 @@ jobs:
           ls -la Export/*_combined.csv 2>/dev/null || echo "No combined files generated"
 
       - name: 🕷️ Fetch Karauri short ratio data
+        working-directory: ./stock_list
         run: |
           echo "🚀 空売り比率データ取得開始..."
-          COMBINED_CSV=$(ls -t stock_list/Export/*_combined.csv 2>/dev/null | head -1)
+          COMBINED_CSV=$(ls -t Export/*_combined.csv 2>/dev/null | head -1)
           if [ -z "$COMBINED_CSV" ]; then
             echo "❌ combined.csvが見つかりません"
             exit 1
