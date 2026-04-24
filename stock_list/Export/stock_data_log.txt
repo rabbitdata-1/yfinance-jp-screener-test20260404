@@ -32519,3 +32519,25 @@
 2026-04-24 19:12:04,612 - INFO - 進捗: 1000/1000 銘柄処理済み
 2026-04-24 19:12:04,666 - INFO - 📄 Part CSV出力: Export/20260424_2.csv
 2026-04-24 19:12:04,761 - INFO - 📊 結合CSV出力: Export/20260424_combined.csv
+2026-04-24 19:12:42,371 - INFO - yfinance version: 1.3.0
+2026-04-24 19:16:46,581 - INFO - 進捗: 100/1000 銘柄処理済み
+2026-04-24 19:18:18,542 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 6312.T"}}}
+2026-04-24 19:18:20,126 - ERROR - $6312.T: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-04-24 19:20:56,224 - INFO - 進捗: 200/1000 銘柄処理済み
+2026-04-24 19:24:02,726 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 6542.T"}}}
+2026-04-24 19:24:03,572 - ERROR - $6542.T: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-04-24 19:24:59,040 - INFO - 進捗: 300/1000 銘柄処理済み
+2026-04-24 19:29:07,267 - INFO - 進捗: 400/1000 銘柄処理済み
+2026-04-24 19:32:47,132 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 6957.T"}}}
+2026-04-24 19:32:47,897 - ERROR - $6957.T: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-04-24 19:33:14,040 - INFO - 進捗: 500/1000 銘柄処理済み
+2026-04-24 19:37:20,710 - INFO - 進捗: 600/1000 銘柄処理済み
+2026-04-24 19:41:24,400 - INFO - 進捗: 700/1000 銘柄処理済み
+2026-04-24 19:45:33,712 - INFO - 進捗: 800/1000 銘柄処理済み
+2026-04-24 19:46:06,354 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 75505
+2026-04-24 19:49:35,731 - INFO - 進捗: 900/1000 銘柄処理済み
+2026-04-24 19:51:28,645 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 7817.T"}}}
+2026-04-24 19:51:29,450 - ERROR - $7817.T: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-04-24 19:53:38,313 - INFO - 進捗: 1000/1000 銘柄処理済み
+2026-04-24 19:53:38,366 - INFO - 📄 Part CSV出力: Export/20260424_3.csv
+2026-04-24 19:53:38,506 - INFO - 📊 結合CSV出力: Export/20260424_combined.csv
