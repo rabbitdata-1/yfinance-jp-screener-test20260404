@@ -32751,3 +32751,27 @@
 2026-05-01 18:59:04,565 - INFO - 進捗: 1000/1000 銘柄処理済み
 2026-05-01 18:59:04,613 - INFO - 📄 Part CSV出力: Export/20260501_2.csv
 2026-05-01 18:59:04,698 - INFO - 📊 結合CSV出力: Export/20260501_combined.csv
+2026-05-01 18:59:53,280 - INFO - yfinance version: 1.3.0
+2026-05-01 19:04:03,508 - INFO - 進捗: 100/1000 銘柄処理済み
+2026-05-01 19:05:33,975 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 6312.T"}}}
+2026-05-01 19:05:34,978 - ERROR - $6312.T: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-05-01 19:08:14,914 - INFO - 進捗: 200/1000 銘柄処理済み
+2026-05-01 19:11:26,252 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 6542.T"}}}
+2026-05-01 19:11:27,275 - ERROR - $6542.T: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-05-01 19:12:25,459 - INFO - 進捗: 300/1000 銘柄処理済み
+2026-05-01 19:16:34,206 - INFO - 進捗: 400/1000 銘柄処理済み
+2026-05-01 19:20:17,849 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 6957.T"}}}
+2026-05-01 19:20:18,917 - ERROR - $6957.T: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-05-01 19:20:45,361 - INFO - 進捗: 500/1000 銘柄処理済み
+2026-05-01 19:24:57,683 - INFO - 進捗: 600/1000 銘柄処理済み
+2026-05-01 19:29:03,395 - INFO - 進捗: 700/1000 銘柄処理済み
+2026-05-01 19:31:19,570 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 7445.T"}}}
+2026-05-01 19:31:20,530 - ERROR - $7445.T: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-05-01 19:33:07,682 - INFO - 進捗: 800/1000 銘柄処理済み
+2026-05-01 19:33:40,738 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 75505
+2026-05-01 19:37:16,688 - INFO - 進捗: 900/1000 銘柄処理済み
+2026-05-01 19:39:10,849 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 7817.T"}}}
+2026-05-01 19:39:11,780 - ERROR - $7817.T: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-05-01 19:41:24,355 - INFO - 進捗: 1000/1000 銘柄処理済み
+2026-05-01 19:41:24,406 - INFO - 📄 Part CSV出力: Export/20260501_3.csv
+2026-05-01 19:41:24,535 - INFO - 📊 結合CSV出力: Export/20260501_combined.csv
