@@ -36114,3 +36114,37 @@
 2026-05-29 20:33:55,905 - INFO - 進捗: 1000/1000 銘柄処理済み
 2026-05-29 20:33:55,955 - INFO - 📄 Part CSV出力: Export/20260529_2.csv
 2026-05-29 20:33:56,047 - INFO - 📊 結合CSV出力: Export/20260529_combined.csv
+2026-05-29 20:34:38,121 - INFO - yfinance version: 1.4.1
+2026-05-29 20:38:10,125 - INFO - 進捗: 100/1000 銘柄処理済み
+2026-05-29 20:39:26,570 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 6312.T"}}}
+2026-05-29 20:39:27,402 - ERROR - $6312.T: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-05-29 20:41:37,449 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 6406.T"}}}
+2026-05-29 20:41:38,069 - ERROR - $6406.T: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-05-29 20:41:41,149 - INFO - 進捗: 200/1000 銘柄処理済み
+2026-05-29 20:44:21,906 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 6542.T"}}}
+2026-05-29 20:44:22,592 - ERROR - $6542.T: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-05-29 20:45:10,324 - INFO - 進捗: 300/1000 銘柄処理済み
+2026-05-29 20:47:45,699 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 6734.T"}}}
+2026-05-29 20:47:46,319 - ERROR - $6734.T: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-05-29 20:48:40,220 - INFO - 進捗: 400/1000 銘柄処理済み
+2026-05-29 20:51:49,995 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 6957.T"}}}
+2026-05-29 20:51:50,667 - ERROR - $6957.T: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-05-29 20:52:13,095 - INFO - 進捗: 500/1000 銘柄処理済み
+2026-05-29 20:55:12,956 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 7116.T"}}}
+2026-05-29 20:55:13,642 - ERROR - $7116.T: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-05-29 20:55:39,258 - INFO - 進捗: 600/1000 銘柄処理済み
+2026-05-29 20:59:06,096 - INFO - 進捗: 700/1000 銘柄処理済み
+2026-05-29 21:01:01,518 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 7445.T"}}}
+2026-05-29 21:01:02,275 - ERROR - $7445.T: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-05-29 21:02:34,380 - INFO - 進捗: 800/1000 銘柄処理済み
+2026-05-29 21:03:01,595 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 75505
+2026-05-29 21:04:31,048 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 7635.T"}}}
+2026-05-29 21:04:31,667 - ERROR - $7635.T: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-05-29 21:05:40,484 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 7718.T"}}}
+2026-05-29 21:05:41,217 - ERROR - $7718.T: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-05-29 21:06:00,855 - INFO - 進捗: 900/1000 銘柄処理済み
+2026-05-29 21:07:37,401 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 7817.T"}}}
+2026-05-29 21:07:38,025 - ERROR - $7817.T: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-05-29 21:09:29,168 - INFO - 進捗: 1000/1000 銘柄処理済み
+2026-05-29 21:09:29,219 - INFO - 📄 Part CSV出力: Export/20260529_3.csv
+2026-05-29 21:09:29,355 - INFO - 📊 結合CSV出力: Export/20260529_combined.csv
