@@ -35529,3 +35529,588 @@
 2026-05-29 19:58:00,087 - INFO - 進捗: 1000/1000 銘柄処理済み
 2026-05-29 19:58:00,138 - INFO - 📄 Part CSV出力: Export/20260529_1.csv
 2026-05-29 19:58:00,183 - INFO - 📊 結合CSV出力: Export/20260529_combined.csv
+2026-05-29 19:58:45,243 - INFO - yfinance version: 1.4.1
+2026-05-29 19:58:58,792 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 386A
+2026-05-29 19:59:04,785 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 387A
+2026-05-29 19:59:22,209 - ERROR - 3902.T error: Expecting value: line 1 column 1 (char 0)
+2026-05-29 20:00:03,566 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 3924.T"}}}
+2026-05-29 20:00:04,382 - ERROR - $3924.T: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-05-29 20:01:05,448 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 3961.T"}}}
+2026-05-29 20:01:06,208 - ERROR - $3961.T: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-05-29 20:02:16,890 - INFO - 進捗: 100/1000 銘柄処理済み
+2026-05-29 20:02:42,799 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 402A
+2026-05-29 20:03:52,651 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 407A
+2026-05-29 20:03:54,946 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 4080.T"}}}
+2026-05-29 20:03:55,690 - ERROR - $4080.T: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-05-29 20:04:18,887 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 409A
+2026-05-29 20:04:29,710 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 410A
+2026-05-29 20:04:51,289 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 414A
+2026-05-29 20:04:51,675 - ERROR - 414A.T error: Expecting value: line 1 column 1 (char 0)
+2026-05-29 20:04:54,955 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 415A
+2026-05-29 20:05:07,435 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 416A
+2026-05-29 20:05:27,860 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 417A
+2026-05-29 20:05:49,353 - INFO - 進捗: 200/1000 銘柄処理済み
+2026-05-29 20:06:19,127 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 421A
+2026-05-29 20:06:46,182 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 423A
+2026-05-29 20:07:29,206 - ERROR - 4265.T error: Expecting value: line 1 column 1 (char 0)
+2026-05-29 20:07:47,363 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 428A
+2026-05-29 20:07:55,947 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 429A
+2026-05-29 20:08:13,126 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 431A
+2026-05-29 20:08:25,919 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 4333.T"}}}
+2026-05-29 20:08:26,657 - ERROR - $4333.T: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-05-29 20:09:10,486 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 436A
+2026-05-29 20:09:22,902 - INFO - 進捗: 300/1000 銘柄処理済み
+2026-05-29 20:09:52,173 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 438A
+2026-05-29 20:10:42,143 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 441A
+2026-05-29 20:11:00,603 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 442A
+2026-05-29 20:11:56,540 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 446A
+2026-05-29 20:12:51,550 - INFO - 進捗: 400/1000 銘柄処理済み
+2026-05-29 20:14:04,976 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 456A
+2026-05-29 20:14:56,685 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 460A
+2026-05-29 20:15:31,607 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 462A
+2026-05-29 20:15:42,371 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 463A
+2026-05-29 20:15:53,351 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 464A
+2026-05-29 20:16:24,353 - INFO - 進捗: 500/1000 銘柄処理済み
+2026-05-29 20:16:54,028 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 469A
+2026-05-29 20:17:15,255 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 471A
+2026-05-29 20:17:25,358 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 472A
+2026-05-29 20:17:38,121 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 4745.T"}}}
+2026-05-29 20:17:38,891 - ERROR - $4745.T: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-05-29 20:17:52,751 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 475A
+2026-05-29 20:18:13,333 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 476A
+2026-05-29 20:18:23,989 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 477A
+2026-05-29 20:18:24,160 - ERROR - HTTP Error 400: <!doctype html public "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <title>Yahoo! - Error report</title>
+    <style>
+        /* nn4 hide */ /*/*/
+        body {
+        font: small/ 1.2em arial, helvetica, clean, sans-serif;
+        font: x-small;
+        text-align: center;
+        }
+
+        table {
+        font-size: inherit;
+        font: x-small;
+        }
+
+        html>body {
+        font: 83%/ 1.2em arial, helvetica, clean, sans-serif;
+        }
+
+        input {
+        font-size: 100%;
+        vertical-align: middle;
+        }
+
+        p,form {
+        margin: 0;
+        padding: 0;
+        }
+
+        p {
+        padding-bottom: 6px;
+        margin-bottom: 10px;
+        }
+
+        #doc {
+        width: 48.5em;
+        margin: 0 auto;
+        border: 1px solid #fff;
+        text-align: center;
+        }
+
+        #ygma {
+        text-align: right;
+        margin-bottom: 53px
+        }
+
+        #ygma img {
+        float: left;
+        }
+
+        #ygma div {
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 8px;
+        margin-left: 152px;
+        }
+
+        #bd {
+        clear: both;
+        text-align: left;
+        width: 75%;
+        margin: 0 auto 20px;
+        }
+
+        h1 {
+        font-size: 135%;
+        text-align: center;
+        margin: 0 0 15px;
+        }
+
+        legend {
+        display: none;
+        }
+
+        fieldset {
+        border: 0 solid #fff;
+        padding: .8em 0 .8em 4.5em;
+        }
+
+        form {
+        position: relative;
+        background: #eee;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-width: 1px 0;
+        }
+
+        #s1p {
+        width: 15em;
+        margin-right: .1em;
+        }
+
+        form span {
+        position: absolute;
+        left: 70%;
+        top: .8em;
+        }
+
+        form a {
+        font: 78%/ 1.2em arial;
+        display: block;
+        padding-left: .8em;
+        white-space: nowrap;
+        background: url(http://l.yimg.com/a/i/s/bullet.gif)
+        no-repeat left center;
+        }
+
+        form .sep {
+        display: none;
+        }
+
+        .more {
+        text-align: center;
+        }
+
+        #ft {
+        padding-top: 10px;
+        border-top: 1px solid #999;
+        }
+
+        #ft p {
+        text-align: center;
+        font: 78% arial;
+        }
+        /* end nn4 hide */
+    </style>
+</head>
+<body>
+<div id="doc">
+    <div id="ygma">
+        <a href="http://www.yahoo.com">
+            <img src="http://l.yimg.com/a/i/yahoo.gif" width="147"
+                 height="31" border="0" alt="Yahoo!">
+        </a>
+
+        <div>
+            <a href="http://www.yahoo.com">Yahoo!</a>
+            - <a href="http://help.yahoo.com">Help</a>
+        </div>
+    </div>
+    <div id="bd">
+        <h1>HTTP Status 400 - Bad Request</h1>
+
+        <p>
+            <b>type</b>
+            Exception report
+        </p>
+
+        <p>
+            <b>message</b>
+            <u>Bad Request</u>
+        </p>
+
+        <p>
+            <b>description</b>
+            <u>Bad Request</u>
+        </p>
+
+        <p>
+            
+        </p>
+    </div>
+</div>
+</body>
+</html>
+
+2026-05-29 20:18:30,172 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 478A
+2026-05-29 20:18:34,358 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 479A
+2026-05-29 20:18:42,663 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 480A
+2026-05-29 20:19:16,678 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 483A
+2026-05-29 20:19:29,290 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 485A
+2026-05-29 20:19:53,699 - INFO - 進捗: 600/1000 銘柄処理済み
+2026-05-29 20:20:02,034 - ERROR - 4896.T error: Expecting value: line 1 column 1 (char 0)
+2026-05-29 20:20:55,866 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 4957.T"}}}
+2026-05-29 20:20:56,644 - ERROR - $4957.T: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-05-29 20:21:58,167 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 5017.T"}}}
+2026-05-29 20:21:58,904 - ERROR - $5017.T: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-05-29 20:22:13,325 - ERROR - HTTP Error 400: <!doctype html public "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <title>Yahoo! - Error report</title>
+    <style>
+        /* nn4 hide */ /*/*/
+        body {
+        font: small/ 1.2em arial, helvetica, clean, sans-serif;
+        font: x-small;
+        text-align: center;
+        }
+
+        table {
+        font-size: inherit;
+        font: x-small;
+        }
+
+        html>body {
+        font: 83%/ 1.2em arial, helvetica, clean, sans-serif;
+        }
+
+        input {
+        font-size: 100%;
+        vertical-align: middle;
+        }
+
+        p,form {
+        margin: 0;
+        padding: 0;
+        }
+
+        p {
+        padding-bottom: 6px;
+        margin-bottom: 10px;
+        }
+
+        #doc {
+        width: 48.5em;
+        margin: 0 auto;
+        border: 1px solid #fff;
+        text-align: center;
+        }
+
+        #ygma {
+        text-align: right;
+        margin-bottom: 53px
+        }
+
+        #ygma img {
+        float: left;
+        }
+
+        #ygma div {
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 8px;
+        margin-left: 152px;
+        }
+
+        #bd {
+        clear: both;
+        text-align: left;
+        width: 75%;
+        margin: 0 auto 20px;
+        }
+
+        h1 {
+        font-size: 135%;
+        text-align: center;
+        margin: 0 0 15px;
+        }
+
+        legend {
+        display: none;
+        }
+
+        fieldset {
+        border: 0 solid #fff;
+        padding: .8em 0 .8em 4.5em;
+        }
+
+        form {
+        position: relative;
+        background: #eee;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-width: 1px 0;
+        }
+
+        #s1p {
+        width: 15em;
+        margin-right: .1em;
+        }
+
+        form span {
+        position: absolute;
+        left: 70%;
+        top: .8em;
+        }
+
+        form a {
+        font: 78%/ 1.2em arial;
+        display: block;
+        padding-left: .8em;
+        white-space: nowrap;
+        background: url(http://l.yimg.com/a/i/s/bullet.gif)
+        no-repeat left center;
+        }
+
+        form .sep {
+        display: none;
+        }
+
+        .more {
+        text-align: center;
+        }
+
+        #ft {
+        padding-top: 10px;
+        border-top: 1px solid #999;
+        }
+
+        #ft p {
+        text-align: center;
+        font: 78% arial;
+        }
+        /* end nn4 hide */
+    </style>
+</head>
+<body>
+<div id="doc">
+    <div id="ygma">
+        <a href="http://www.yahoo.com">
+            <img src="http://l.yimg.com/a/i/yahoo.gif" width="147"
+                 height="31" border="0" alt="Yahoo!">
+        </a>
+
+        <div>
+            <a href="http://www.yahoo.com">Yahoo!</a>
+            - <a href="http://help.yahoo.com">Help</a>
+        </div>
+    </div>
+    <div id="bd">
+        <h1>HTTP Status 400 - Bad Request</h1>
+
+        <p>
+            <b>type</b>
+            Exception report
+        </p>
+
+        <p>
+            <b>message</b>
+            <u>Bad Request</u>
+        </p>
+
+        <p>
+            <b>description</b>
+            <u>Bad Request</u>
+        </p>
+
+        <p>
+            
+        </p>
+    </div>
+</div>
+</body>
+</html>
+
+2026-05-29 20:22:13,325 - ERROR - 5027.T error: argument of type 'NoneType' is not iterable
+2026-05-29 20:22:38,903 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 50765
+2026-05-29 20:23:22,564 - INFO - 進捗: 700/1000 銘柄処理済み
+2026-05-29 20:23:39,788 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 5191.T"}}}
+2026-05-29 20:23:40,471 - ERROR - $5191.T: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-05-29 20:25:25,326 - ERROR - $5310.T: possibly delisted; no price data found  (period=1y)
+2026-05-29 20:25:43,682 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 5352.T"}}}
+2026-05-29 20:25:44,518 - ERROR - $5352.T: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-05-29 20:26:04,618 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 5386.T"}}}
+2026-05-29 20:26:05,380 - ERROR - $5386.T: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-05-29 20:26:15,814 - ERROR - Failed to get ticker '5406.T' reason: Expecting value: line 1 column 1 (char 0)
+2026-05-29 20:26:49,175 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 5476.T"}}}
+2026-05-29 20:26:50,144 - ERROR - $5476.T: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-05-29 20:26:53,236 - INFO - 進捗: 800/1000 銘柄処理済み
+2026-05-29 20:27:48,830 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 5596.T"}}}
+2026-05-29 20:27:49,580 - ERROR - $5596.T: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-05-29 20:28:12,399 - ERROR - HTTP Error 400: <!doctype html public "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <title>Yahoo! - Error report</title>
+    <style>
+        /* nn4 hide */ /*/*/
+        body {
+        font: small/ 1.2em arial, helvetica, clean, sans-serif;
+        font: x-small;
+        text-align: center;
+        }
+
+        table {
+        font-size: inherit;
+        font: x-small;
+        }
+
+        html>body {
+        font: 83%/ 1.2em arial, helvetica, clean, sans-serif;
+        }
+
+        input {
+        font-size: 100%;
+        vertical-align: middle;
+        }
+
+        p,form {
+        margin: 0;
+        padding: 0;
+        }
+
+        p {
+        padding-bottom: 6px;
+        margin-bottom: 10px;
+        }
+
+        #doc {
+        width: 48.5em;
+        margin: 0 auto;
+        border: 1px solid #fff;
+        text-align: center;
+        }
+
+        #ygma {
+        text-align: right;
+        margin-bottom: 53px
+        }
+
+        #ygma img {
+        float: left;
+        }
+
+        #ygma div {
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 8px;
+        margin-left: 152px;
+        }
+
+        #bd {
+        clear: both;
+        text-align: left;
+        width: 75%;
+        margin: 0 auto 20px;
+        }
+
+        h1 {
+        font-size: 135%;
+        text-align: center;
+        margin: 0 0 15px;
+        }
+
+        legend {
+        display: none;
+        }
+
+        fieldset {
+        border: 0 solid #fff;
+        padding: .8em 0 .8em 4.5em;
+        }
+
+        form {
+        position: relative;
+        background: #eee;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-width: 1px 0;
+        }
+
+        #s1p {
+        width: 15em;
+        margin-right: .1em;
+        }
+
+        form span {
+        position: absolute;
+        left: 70%;
+        top: .8em;
+        }
+
+        form a {
+        font: 78%/ 1.2em arial;
+        display: block;
+        padding-left: .8em;
+        white-space: nowrap;
+        background: url(http://l.yimg.com/a/i/s/bullet.gif)
+        no-repeat left center;
+        }
+
+        form .sep {
+        display: none;
+        }
+
+        .more {
+        text-align: center;
+        }
+
+        #ft {
+        padding-top: 10px;
+        border-top: 1px solid #999;
+        }
+
+        #ft p {
+        text-align: center;
+        font: 78% arial;
+        }
+        /* end nn4 hide */
+    </style>
+</head>
+<body>
+<div id="doc">
+    <div id="ygma">
+        <a href="http://www.yahoo.com">
+            <img src="http://l.yimg.com/a/i/yahoo.gif" width="147"
+                 height="31" border="0" alt="Yahoo!">
+        </a>
+
+        <div>
+            <a href="http://www.yahoo.com">Yahoo!</a>
+            - <a href="http://help.yahoo.com">Help</a>
+        </div>
+    </div>
+    <div id="bd">
+        <h1>HTTP Status 400 - Bad Request</h1>
+
+        <p>
+            <b>type</b>
+            Exception report
+        </p>
+
+        <p>
+            <b>message</b>
+            <u>Bad Request</u>
+        </p>
+
+        <p>
+            <b>description</b>
+            <u>Bad Request</u>
+        </p>
+
+        <p>
+            
+        </p>
+    </div>
+</div>
+</body>
+</html>
+
+2026-05-29 20:29:22,589 - ERROR - $5817.T: possibly delisted; no price data found  (period=1y)
+2026-05-29 20:30:20,613 - INFO - 進捗: 900/1000 銘柄処理済み
+2026-05-29 20:33:39,176 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 6060.T"}}}
+2026-05-29 20:33:40,004 - ERROR - $6060.T: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-05-29 20:33:55,905 - INFO - 進捗: 1000/1000 銘柄処理済み
+2026-05-29 20:33:55,955 - INFO - 📄 Part CSV出力: Export/20260529_2.csv
+2026-05-29 20:33:56,047 - INFO - 📊 結合CSV出力: Export/20260529_combined.csv
