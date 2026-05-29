@@ -33536,3 +33536,1996 @@
 2026-05-22 20:49:55,414 - INFO - 進捗: 700/783 銘柄処理済み
 2026-05-22 20:53:00,336 - INFO - 📄 Part CSV出力: Export/20260522_4.csv
 2026-05-22 20:53:00,515 - INFO - 📊 結合CSV出力: Export/20260522_combined.csv
+2026-05-29 19:24:36,832 - INFO - yfinance version: 1.4.1
+2026-05-29 19:24:39,201 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 130A
+2026-05-29 19:24:45,306 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 135A
+2026-05-29 19:24:55,558 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 137A
+2026-05-29 19:25:07,516 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 138A
+2026-05-29 19:25:21,555 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 141A
+2026-05-29 19:25:27,869 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 142A
+2026-05-29 19:25:40,076 - ERROR - HTTP Error 400: <!doctype html public "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <title>Yahoo! - Error report</title>
+    <style>
+        /* nn4 hide */ /*/*/
+        body {
+        font: small/ 1.2em arial, helvetica, clean, sans-serif;
+        font: x-small;
+        text-align: center;
+        }
+
+        table {
+        font-size: inherit;
+        font: x-small;
+        }
+
+        html>body {
+        font: 83%/ 1.2em arial, helvetica, clean, sans-serif;
+        }
+
+        input {
+        font-size: 100%;
+        vertical-align: middle;
+        }
+
+        p,form {
+        margin: 0;
+        padding: 0;
+        }
+
+        p {
+        padding-bottom: 6px;
+        margin-bottom: 10px;
+        }
+
+        #doc {
+        width: 48.5em;
+        margin: 0 auto;
+        border: 1px solid #fff;
+        text-align: center;
+        }
+
+        #ygma {
+        text-align: right;
+        margin-bottom: 53px
+        }
+
+        #ygma img {
+        float: left;
+        }
+
+        #ygma div {
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 8px;
+        margin-left: 152px;
+        }
+
+        #bd {
+        clear: both;
+        text-align: left;
+        width: 75%;
+        margin: 0 auto 20px;
+        }
+
+        h1 {
+        font-size: 135%;
+        text-align: center;
+        margin: 0 0 15px;
+        }
+
+        legend {
+        display: none;
+        }
+
+        fieldset {
+        border: 0 solid #fff;
+        padding: .8em 0 .8em 4.5em;
+        }
+
+        form {
+        position: relative;
+        background: #eee;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-width: 1px 0;
+        }
+
+        #s1p {
+        width: 15em;
+        margin-right: .1em;
+        }
+
+        form span {
+        position: absolute;
+        left: 70%;
+        top: .8em;
+        }
+
+        form a {
+        font: 78%/ 1.2em arial;
+        display: block;
+        padding-left: .8em;
+        white-space: nowrap;
+        background: url(http://l.yimg.com/a/i/s/bullet.gif)
+        no-repeat left center;
+        }
+
+        form .sep {
+        display: none;
+        }
+
+        .more {
+        text-align: center;
+        }
+
+        #ft {
+        padding-top: 10px;
+        border-top: 1px solid #999;
+        }
+
+        #ft p {
+        text-align: center;
+        font: 78% arial;
+        }
+        /* end nn4 hide */
+    </style>
+</head>
+<body>
+<div id="doc">
+    <div id="ygma">
+        <a href="http://www.yahoo.com">
+            <img src="http://l.yimg.com/a/i/yahoo.gif" width="147"
+                 height="31" border="0" alt="Yahoo!">
+        </a>
+
+        <div>
+            <a href="http://www.yahoo.com">Yahoo!</a>
+            - <a href="http://help.yahoo.com">Help</a>
+        </div>
+    </div>
+    <div id="bd">
+        <h1>HTTP Status 400 - Bad Request</h1>
+
+        <p>
+            <b>type</b>
+            Exception report
+        </p>
+
+        <p>
+            <b>message</b>
+            <u>Bad Request</u>
+        </p>
+
+        <p>
+            <b>description</b>
+            <u>Bad Request</u>
+        </p>
+
+        <p>
+            
+        </p>
+    </div>
+</div>
+</body>
+</html>
+
+2026-05-29 19:25:43,901 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 143A
+2026-05-29 19:25:56,300 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 145A
+2026-05-29 19:25:58,321 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 146A
+2026-05-29 19:26:00,304 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 147A
+2026-05-29 19:26:01,356 - ERROR - $147A.T: possibly delisted; no price data found  (period=1y)
+2026-05-29 19:26:02,607 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 148A
+2026-05-29 19:26:06,338 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 149A
+2026-05-29 19:26:08,570 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 150A
+2026-05-29 19:26:16,640 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 151A
+2026-05-29 19:26:18,624 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 153A
+2026-05-29 19:26:20,685 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 155A
+2026-05-29 19:26:22,675 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 156A
+2026-05-29 19:26:24,649 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 157A
+2026-05-29 19:26:28,773 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 160A
+2026-05-29 19:26:34,743 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 166A
+2026-05-29 19:26:36,594 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 167A
+2026-05-29 19:26:38,722 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 168A
+2026-05-29 19:26:47,138 - ERROR - 1718.T error: Expecting value: line 1 column 1 (char 0)
+2026-05-29 19:27:02,590 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 173A
+2026-05-29 19:27:06,521 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 175A
+2026-05-29 19:27:16,583 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 176A
+2026-05-29 19:27:16,763 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 176A.T"}}}
+2026-05-29 19:27:17,460 - ERROR - $176A.T: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-05-29 19:27:22,173 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 177A
+2026-05-29 19:27:58,880 - INFO - 進捗: 100/1000 銘柄処理済み
+2026-05-29 19:28:04,900 - ERROR - 1820.T error: Expecting value: line 1 column 1 (char 0)
+2026-05-29 19:28:20,838 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 1841.T"}}}
+2026-05-29 19:28:21,461 - ERROR - $1841.T: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-05-29 19:28:28,538 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 184A
+2026-05-29 19:28:45,222 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 186A
+2026-05-29 19:29:14,021 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 189A
+2026-05-29 19:29:22,058 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 190A
+2026-05-29 19:29:38,192 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 192A
+2026-05-29 19:29:59,763 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 1949.T"}}}
+2026-05-29 19:30:00,378 - ERROR - $1949.T: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-05-29 19:30:01,379 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 194A
+2026-05-29 19:30:11,391 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 195A
+2026-05-29 19:30:31,735 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 196A
+2026-05-29 19:30:41,906 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 197A
+2026-05-29 19:30:50,489 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 198A
+2026-05-29 19:31:08,494 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 202A
+2026-05-29 19:31:14,450 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 205A
+2026-05-29 19:31:18,276 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 206A
+2026-05-29 19:31:20,285 - INFO - 進捗: 200/1000 銘柄処理済み
+2026-05-29 19:31:20,285 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 208A
+2026-05-29 19:31:32,104 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 211A
+2026-05-29 19:31:44,778 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 212A
+2026-05-29 19:32:12,236 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 215A
+2026-05-29 19:32:44,934 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 218A
+2026-05-29 19:32:51,229 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 2196.T"}}}
+2026-05-29 19:32:51,893 - ERROR - $2196.T: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-05-29 19:32:54,618 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 219A
+2026-05-29 19:33:09,131 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 220A
+2026-05-29 19:33:54,148 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 228A
+2026-05-29 19:34:43,180 - INFO - 進捗: 300/1000 銘柄処理済み
+2026-05-29 19:35:17,188 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 2374.T"}}}
+2026-05-29 19:35:17,826 - ERROR - $2374.T: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-05-29 19:35:20,795 - ERROR - HTTP Error 400: <!doctype html public "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <title>Yahoo! - Error report</title>
+    <style>
+        /* nn4 hide */ /*/*/
+        body {
+        font: small/ 1.2em arial, helvetica, clean, sans-serif;
+        font: x-small;
+        text-align: center;
+        }
+
+        table {
+        font-size: inherit;
+        font: x-small;
+        }
+
+        html>body {
+        font: 83%/ 1.2em arial, helvetica, clean, sans-serif;
+        }
+
+        input {
+        font-size: 100%;
+        vertical-align: middle;
+        }
+
+        p,form {
+        margin: 0;
+        padding: 0;
+        }
+
+        p {
+        padding-bottom: 6px;
+        margin-bottom: 10px;
+        }
+
+        #doc {
+        width: 48.5em;
+        margin: 0 auto;
+        border: 1px solid #fff;
+        text-align: center;
+        }
+
+        #ygma {
+        text-align: right;
+        margin-bottom: 53px
+        }
+
+        #ygma img {
+        float: left;
+        }
+
+        #ygma div {
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 8px;
+        margin-left: 152px;
+        }
+
+        #bd {
+        clear: both;
+        text-align: left;
+        width: 75%;
+        margin: 0 auto 20px;
+        }
+
+        h1 {
+        font-size: 135%;
+        text-align: center;
+        margin: 0 0 15px;
+        }
+
+        legend {
+        display: none;
+        }
+
+        fieldset {
+        border: 0 solid #fff;
+        padding: .8em 0 .8em 4.5em;
+        }
+
+        form {
+        position: relative;
+        background: #eee;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-width: 1px 0;
+        }
+
+        #s1p {
+        width: 15em;
+        margin-right: .1em;
+        }
+
+        form span {
+        position: absolute;
+        left: 70%;
+        top: .8em;
+        }
+
+        form a {
+        font: 78%/ 1.2em arial;
+        display: block;
+        padding-left: .8em;
+        white-space: nowrap;
+        background: url(http://l.yimg.com/a/i/s/bullet.gif)
+        no-repeat left center;
+        }
+
+        form .sep {
+        display: none;
+        }
+
+        .more {
+        text-align: center;
+        }
+
+        #ft {
+        padding-top: 10px;
+        border-top: 1px solid #999;
+        }
+
+        #ft p {
+        text-align: center;
+        font: 78% arial;
+        }
+        /* end nn4 hide */
+    </style>
+</head>
+<body>
+<div id="doc">
+    <div id="ygma">
+        <a href="http://www.yahoo.com">
+            <img src="http://l.yimg.com/a/i/yahoo.gif" width="147"
+                 height="31" border="0" alt="Yahoo!">
+        </a>
+
+        <div>
+            <a href="http://www.yahoo.com">Yahoo!</a>
+            - <a href="http://help.yahoo.com">Help</a>
+        </div>
+    </div>
+    <div id="bd">
+        <h1>HTTP Status 400 - Bad Request</h1>
+
+        <p>
+            <b>type</b>
+            Exception report
+        </p>
+
+        <p>
+            <b>message</b>
+            <u>Bad Request</u>
+        </p>
+
+        <p>
+            <b>description</b>
+            <u>Bad Request</u>
+        </p>
+
+        <p>
+            
+        </p>
+    </div>
+</div>
+</body>
+</html>
+
+2026-05-29 19:35:32,930 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 2389.T"}}}
+2026-05-29 19:35:33,491 - ERROR - $2389.T: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-05-29 19:35:54,442 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 241A
+2026-05-29 19:36:22,401 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 244A
+2026-05-29 19:36:28,421 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 245A
+2026-05-29 19:36:38,830 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 246A
+2026-05-29 19:36:49,106 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 247A
+2026-05-29 19:37:04,937 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 248A
+2026-05-29 19:37:24,845 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 250A
+2026-05-29 19:37:30,855 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 253A
+2026-05-29 19:37:34,942 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 254A
+2026-05-29 19:37:36,924 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 255A
+2026-05-29 19:37:38,913 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 256A
+2026-05-29 19:37:56,793 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 25935
+2026-05-29 19:38:03,108 - INFO - 進捗: 400/1000 銘柄処理済み
+2026-05-29 19:38:03,348 - ERROR - HTTP Error 400: <!doctype html public "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <title>Yahoo! - Error report</title>
+    <style>
+        /* nn4 hide */ /*/*/
+        body {
+        font: small/ 1.2em arial, helvetica, clean, sans-serif;
+        font: x-small;
+        text-align: center;
+        }
+
+        table {
+        font-size: inherit;
+        font: x-small;
+        }
+
+        html>body {
+        font: 83%/ 1.2em arial, helvetica, clean, sans-serif;
+        }
+
+        input {
+        font-size: 100%;
+        vertical-align: middle;
+        }
+
+        p,form {
+        margin: 0;
+        padding: 0;
+        }
+
+        p {
+        padding-bottom: 6px;
+        margin-bottom: 10px;
+        }
+
+        #doc {
+        width: 48.5em;
+        margin: 0 auto;
+        border: 1px solid #fff;
+        text-align: center;
+        }
+
+        #ygma {
+        text-align: right;
+        margin-bottom: 53px
+        }
+
+        #ygma img {
+        float: left;
+        }
+
+        #ygma div {
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 8px;
+        margin-left: 152px;
+        }
+
+        #bd {
+        clear: both;
+        text-align: left;
+        width: 75%;
+        margin: 0 auto 20px;
+        }
+
+        h1 {
+        font-size: 135%;
+        text-align: center;
+        margin: 0 0 15px;
+        }
+
+        legend {
+        display: none;
+        }
+
+        fieldset {
+        border: 0 solid #fff;
+        padding: .8em 0 .8em 4.5em;
+        }
+
+        form {
+        position: relative;
+        background: #eee;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-width: 1px 0;
+        }
+
+        #s1p {
+        width: 15em;
+        margin-right: .1em;
+        }
+
+        form span {
+        position: absolute;
+        left: 70%;
+        top: .8em;
+        }
+
+        form a {
+        font: 78%/ 1.2em arial;
+        display: block;
+        padding-left: .8em;
+        white-space: nowrap;
+        background: url(http://l.yimg.com/a/i/s/bullet.gif)
+        no-repeat left center;
+        }
+
+        form .sep {
+        display: none;
+        }
+
+        .more {
+        text-align: center;
+        }
+
+        #ft {
+        padding-top: 10px;
+        border-top: 1px solid #999;
+        }
+
+        #ft p {
+        text-align: center;
+        font: 78% arial;
+        }
+        /* end nn4 hide */
+    </style>
+</head>
+<body>
+<div id="doc">
+    <div id="ygma">
+        <a href="http://www.yahoo.com">
+            <img src="http://l.yimg.com/a/i/yahoo.gif" width="147"
+                 height="31" border="0" alt="Yahoo!">
+        </a>
+
+        <div>
+            <a href="http://www.yahoo.com">Yahoo!</a>
+            - <a href="http://help.yahoo.com">Help</a>
+        </div>
+    </div>
+    <div id="bd">
+        <h1>HTTP Status 400 - Bad Request</h1>
+
+        <p>
+            <b>type</b>
+            Exception report
+        </p>
+
+        <p>
+            <b>message</b>
+            <u>Bad Request</u>
+        </p>
+
+        <p>
+            <b>description</b>
+            <u>Bad Request</u>
+        </p>
+
+        <p>
+            
+        </p>
+    </div>
+</div>
+</body>
+</html>
+
+2026-05-29 19:38:03,348 - ERROR - 2602.T error: argument of type 'NoneType' is not iterable
+2026-05-29 19:38:10,424 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 261A
+2026-05-29 19:38:12,330 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 262A
+2026-05-29 19:38:14,325 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 264A
+2026-05-29 19:38:26,287 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 265A
+2026-05-29 19:38:59,810 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 268A
+2026-05-29 19:39:11,925 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 269A
+2026-05-29 19:39:22,300 - ERROR - 2721.T error: Expecting value: line 1 column 1 (char 0)
+2026-05-29 19:39:23,509 - ERROR - 2722.T error: Expecting value: line 1 column 1 (char 0)
+2026-05-29 19:39:40,537 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 2743.T"}}}
+2026-05-29 19:39:41,302 - ERROR - $2743.T: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-05-29 19:39:46,387 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 274A
+2026-05-29 19:40:10,322 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 276A
+2026-05-29 19:40:16,099 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 277A
+2026-05-29 19:40:28,433 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 278A
+2026-05-29 19:40:54,707 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 280A
+2026-05-29 19:41:13,135 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 281A
+2026-05-29 19:41:19,131 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 285A
+2026-05-29 19:41:21,057 - INFO - 進捗: 500/1000 銘柄処理済み
+2026-05-29 19:41:21,058 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 286A
+2026-05-29 19:41:35,688 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 287A
+2026-05-29 19:41:43,755 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 288A
+2026-05-29 19:42:02,272 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 290A
+2026-05-29 19:42:17,863 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 291A
+2026-05-29 19:42:53,761 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 296A
+2026-05-29 19:42:56,269 - ERROR - Failed to get ticker '2970.T' reason: Expecting value: line 1 column 1 (char 0)
+2026-05-29 19:43:01,545 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 297A
+2026-05-29 19:43:15,415 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 298A
+2026-05-29 19:43:27,261 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 299A
+2026-05-29 19:43:36,984 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 300A
+2026-05-29 19:43:46,999 - ERROR - HTTP Error 400: <!doctype html public "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <title>Yahoo! - Error report</title>
+    <style>
+        /* nn4 hide */ /*/*/
+        body {
+        font: small/ 1.2em arial, helvetica, clean, sans-serif;
+        font: x-small;
+        text-align: center;
+        }
+
+        table {
+        font-size: inherit;
+        font: x-small;
+        }
+
+        html>body {
+        font: 83%/ 1.2em arial, helvetica, clean, sans-serif;
+        }
+
+        input {
+        font-size: 100%;
+        vertical-align: middle;
+        }
+
+        p,form {
+        margin: 0;
+        padding: 0;
+        }
+
+        p {
+        padding-bottom: 6px;
+        margin-bottom: 10px;
+        }
+
+        #doc {
+        width: 48.5em;
+        margin: 0 auto;
+        border: 1px solid #fff;
+        text-align: center;
+        }
+
+        #ygma {
+        text-align: right;
+        margin-bottom: 53px
+        }
+
+        #ygma img {
+        float: left;
+        }
+
+        #ygma div {
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 8px;
+        margin-left: 152px;
+        }
+
+        #bd {
+        clear: both;
+        text-align: left;
+        width: 75%;
+        margin: 0 auto 20px;
+        }
+
+        h1 {
+        font-size: 135%;
+        text-align: center;
+        margin: 0 0 15px;
+        }
+
+        legend {
+        display: none;
+        }
+
+        fieldset {
+        border: 0 solid #fff;
+        padding: .8em 0 .8em 4.5em;
+        }
+
+        form {
+        position: relative;
+        background: #eee;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-width: 1px 0;
+        }
+
+        #s1p {
+        width: 15em;
+        margin-right: .1em;
+        }
+
+        form span {
+        position: absolute;
+        left: 70%;
+        top: .8em;
+        }
+
+        form a {
+        font: 78%/ 1.2em arial;
+        display: block;
+        padding-left: .8em;
+        white-space: nowrap;
+        background: url(http://l.yimg.com/a/i/s/bullet.gif)
+        no-repeat left center;
+        }
+
+        form .sep {
+        display: none;
+        }
+
+        .more {
+        text-align: center;
+        }
+
+        #ft {
+        padding-top: 10px;
+        border-top: 1px solid #999;
+        }
+
+        #ft p {
+        text-align: center;
+        font: 78% arial;
+        }
+        /* end nn4 hide */
+    </style>
+</head>
+<body>
+<div id="doc">
+    <div id="ygma">
+        <a href="http://www.yahoo.com">
+            <img src="http://l.yimg.com/a/i/yahoo.gif" width="147"
+                 height="31" border="0" alt="Yahoo!">
+        </a>
+
+        <div>
+            <a href="http://www.yahoo.com">Yahoo!</a>
+            - <a href="http://help.yahoo.com">Help</a>
+        </div>
+    </div>
+    <div id="bd">
+        <h1>HTTP Status 400 - Bad Request</h1>
+
+        <p>
+            <b>type</b>
+            Exception report
+        </p>
+
+        <p>
+            <b>message</b>
+            <u>Bad Request</u>
+        </p>
+
+        <p>
+            <b>description</b>
+            <u>Bad Request</u>
+        </p>
+
+        <p>
+            
+        </p>
+    </div>
+</div>
+</body>
+</html>
+
+2026-05-29 19:43:46,999 - ERROR - 3023.T error: argument of type 'NoneType' is not iterable
+2026-05-29 19:43:51,314 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 302A
+2026-05-29 19:44:05,592 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 303A
+2026-05-29 19:44:19,189 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 304A
+2026-05-29 19:44:39,912 - INFO - 進捗: 600/1000 銘柄処理済み
+2026-05-29 19:45:16,195 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 3094.T"}}}
+2026-05-29 19:45:16,758 - ERROR - $3094.T: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-05-29 19:46:21,003 - ERROR - HTTP Error 400: <!doctype html public "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <title>Yahoo! - Error report</title>
+    <style>
+        /* nn4 hide */ /*/*/
+        body {
+        font: small/ 1.2em arial, helvetica, clean, sans-serif;
+        font: x-small;
+        text-align: center;
+        }
+
+        table {
+        font-size: inherit;
+        font: x-small;
+        }
+
+        html>body {
+        font: 83%/ 1.2em arial, helvetica, clean, sans-serif;
+        }
+
+        input {
+        font-size: 100%;
+        vertical-align: middle;
+        }
+
+        p,form {
+        margin: 0;
+        padding: 0;
+        }
+
+        p {
+        padding-bottom: 6px;
+        margin-bottom: 10px;
+        }
+
+        #doc {
+        width: 48.5em;
+        margin: 0 auto;
+        border: 1px solid #fff;
+        text-align: center;
+        }
+
+        #ygma {
+        text-align: right;
+        margin-bottom: 53px
+        }
+
+        #ygma img {
+        float: left;
+        }
+
+        #ygma div {
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 8px;
+        margin-left: 152px;
+        }
+
+        #bd {
+        clear: both;
+        text-align: left;
+        width: 75%;
+        margin: 0 auto 20px;
+        }
+
+        h1 {
+        font-size: 135%;
+        text-align: center;
+        margin: 0 0 15px;
+        }
+
+        legend {
+        display: none;
+        }
+
+        fieldset {
+        border: 0 solid #fff;
+        padding: .8em 0 .8em 4.5em;
+        }
+
+        form {
+        position: relative;
+        background: #eee;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-width: 1px 0;
+        }
+
+        #s1p {
+        width: 15em;
+        margin-right: .1em;
+        }
+
+        form span {
+        position: absolute;
+        left: 70%;
+        top: .8em;
+        }
+
+        form a {
+        font: 78%/ 1.2em arial;
+        display: block;
+        padding-left: .8em;
+        white-space: nowrap;
+        background: url(http://l.yimg.com/a/i/s/bullet.gif)
+        no-repeat left center;
+        }
+
+        form .sep {
+        display: none;
+        }
+
+        .more {
+        text-align: center;
+        }
+
+        #ft {
+        padding-top: 10px;
+        border-top: 1px solid #999;
+        }
+
+        #ft p {
+        text-align: center;
+        font: 78% arial;
+        }
+        /* end nn4 hide */
+    </style>
+</head>
+<body>
+<div id="doc">
+    <div id="ygma">
+        <a href="http://www.yahoo.com">
+            <img src="http://l.yimg.com/a/i/yahoo.gif" width="147"
+                 height="31" border="0" alt="Yahoo!">
+        </a>
+
+        <div>
+            <a href="http://www.yahoo.com">Yahoo!</a>
+            - <a href="http://help.yahoo.com">Help</a>
+        </div>
+    </div>
+    <div id="bd">
+        <h1>HTTP Status 400 - Bad Request</h1>
+
+        <p>
+            <b>type</b>
+            Exception report
+        </p>
+
+        <p>
+            <b>message</b>
+            <u>Bad Request</u>
+        </p>
+
+        <p>
+            <b>description</b>
+            <u>Bad Request</u>
+        </p>
+
+        <p>
+            
+        </p>
+    </div>
+</div>
+</body>
+</html>
+
+2026-05-29 19:46:41,003 - ERROR - HTTP Error 400: <!doctype html public "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <title>Yahoo! - Error report</title>
+    <style>
+        /* nn4 hide */ /*/*/
+        body {
+        font: small/ 1.2em arial, helvetica, clean, sans-serif;
+        font: x-small;
+        text-align: center;
+        }
+
+        table {
+        font-size: inherit;
+        font: x-small;
+        }
+
+        html>body {
+        font: 83%/ 1.2em arial, helvetica, clean, sans-serif;
+        }
+
+        input {
+        font-size: 100%;
+        vertical-align: middle;
+        }
+
+        p,form {
+        margin: 0;
+        padding: 0;
+        }
+
+        p {
+        padding-bottom: 6px;
+        margin-bottom: 10px;
+        }
+
+        #doc {
+        width: 48.5em;
+        margin: 0 auto;
+        border: 1px solid #fff;
+        text-align: center;
+        }
+
+        #ygma {
+        text-align: right;
+        margin-bottom: 53px
+        }
+
+        #ygma img {
+        float: left;
+        }
+
+        #ygma div {
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 8px;
+        margin-left: 152px;
+        }
+
+        #bd {
+        clear: both;
+        text-align: left;
+        width: 75%;
+        margin: 0 auto 20px;
+        }
+
+        h1 {
+        font-size: 135%;
+        text-align: center;
+        margin: 0 0 15px;
+        }
+
+        legend {
+        display: none;
+        }
+
+        fieldset {
+        border: 0 solid #fff;
+        padding: .8em 0 .8em 4.5em;
+        }
+
+        form {
+        position: relative;
+        background: #eee;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-width: 1px 0;
+        }
+
+        #s1p {
+        width: 15em;
+        margin-right: .1em;
+        }
+
+        form span {
+        position: absolute;
+        left: 70%;
+        top: .8em;
+        }
+
+        form a {
+        font: 78%/ 1.2em arial;
+        display: block;
+        padding-left: .8em;
+        white-space: nowrap;
+        background: url(http://l.yimg.com/a/i/s/bullet.gif)
+        no-repeat left center;
+        }
+
+        form .sep {
+        display: none;
+        }
+
+        .more {
+        text-align: center;
+        }
+
+        #ft {
+        padding-top: 10px;
+        border-top: 1px solid #999;
+        }
+
+        #ft p {
+        text-align: center;
+        font: 78% arial;
+        }
+        /* end nn4 hide */
+    </style>
+</head>
+<body>
+<div id="doc">
+    <div id="ygma">
+        <a href="http://www.yahoo.com">
+            <img src="http://l.yimg.com/a/i/yahoo.gif" width="147"
+                 height="31" border="0" alt="Yahoo!">
+        </a>
+
+        <div>
+            <a href="http://www.yahoo.com">Yahoo!</a>
+            - <a href="http://help.yahoo.com">Help</a>
+        </div>
+    </div>
+    <div id="bd">
+        <h1>HTTP Status 400 - Bad Request</h1>
+
+        <p>
+            <b>type</b>
+            Exception report
+        </p>
+
+        <p>
+            <b>message</b>
+            <u>Bad Request</u>
+        </p>
+
+        <p>
+            <b>description</b>
+            <u>Bad Request</u>
+        </p>
+
+        <p>
+            
+        </p>
+    </div>
+</div>
+</body>
+</html>
+
+2026-05-29 19:46:41,003 - ERROR - 3173.T error: argument of type 'NoneType' is not iterable
+2026-05-29 19:47:29,762 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 319A
+2026-05-29 19:47:58,409 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 323A
+2026-05-29 19:48:00,349 - INFO - 進捗: 700/1000 銘柄処理済み
+2026-05-29 19:48:10,422 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 324A
+2026-05-29 19:48:14,340 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 325A
+2026-05-29 19:48:53,721 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 330A
+2026-05-29 19:48:59,689 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 331A
+2026-05-29 19:49:11,782 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 332A
+2026-05-29 19:49:17,856 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 334A
+2026-05-29 19:49:31,902 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 335A
+2026-05-29 19:49:37,957 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 336A
+2026-05-29 19:49:59,734 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 338A
+2026-05-29 19:50:16,141 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 339A
+2026-05-29 19:50:28,354 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 340A
+2026-05-29 19:50:38,166 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 341A
+2026-05-29 19:51:04,649 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 343A
+2026-05-29 19:51:20,386 - INFO - 進捗: 800/1000 銘柄処理済み
+2026-05-29 19:52:06,444 - ERROR - HTTP Error 400: <!doctype html public "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <title>Yahoo! - Error report</title>
+    <style>
+        /* nn4 hide */ /*/*/
+        body {
+        font: small/ 1.2em arial, helvetica, clean, sans-serif;
+        font: x-small;
+        text-align: center;
+        }
+
+        table {
+        font-size: inherit;
+        font: x-small;
+        }
+
+        html>body {
+        font: 83%/ 1.2em arial, helvetica, clean, sans-serif;
+        }
+
+        input {
+        font-size: 100%;
+        vertical-align: middle;
+        }
+
+        p,form {
+        margin: 0;
+        padding: 0;
+        }
+
+        p {
+        padding-bottom: 6px;
+        margin-bottom: 10px;
+        }
+
+        #doc {
+        width: 48.5em;
+        margin: 0 auto;
+        border: 1px solid #fff;
+        text-align: center;
+        }
+
+        #ygma {
+        text-align: right;
+        margin-bottom: 53px
+        }
+
+        #ygma img {
+        float: left;
+        }
+
+        #ygma div {
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 8px;
+        margin-left: 152px;
+        }
+
+        #bd {
+        clear: both;
+        text-align: left;
+        width: 75%;
+        margin: 0 auto 20px;
+        }
+
+        h1 {
+        font-size: 135%;
+        text-align: center;
+        margin: 0 0 15px;
+        }
+
+        legend {
+        display: none;
+        }
+
+        fieldset {
+        border: 0 solid #fff;
+        padding: .8em 0 .8em 4.5em;
+        }
+
+        form {
+        position: relative;
+        background: #eee;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-width: 1px 0;
+        }
+
+        #s1p {
+        width: 15em;
+        margin-right: .1em;
+        }
+
+        form span {
+        position: absolute;
+        left: 70%;
+        top: .8em;
+        }
+
+        form a {
+        font: 78%/ 1.2em arial;
+        display: block;
+        padding-left: .8em;
+        white-space: nowrap;
+        background: url(http://l.yimg.com/a/i/s/bullet.gif)
+        no-repeat left center;
+        }
+
+        form .sep {
+        display: none;
+        }
+
+        .more {
+        text-align: center;
+        }
+
+        #ft {
+        padding-top: 10px;
+        border-top: 1px solid #999;
+        }
+
+        #ft p {
+        text-align: center;
+        font: 78% arial;
+        }
+        /* end nn4 hide */
+    </style>
+</head>
+<body>
+<div id="doc">
+    <div id="ygma">
+        <a href="http://www.yahoo.com">
+            <img src="http://l.yimg.com/a/i/yahoo.gif" width="147"
+                 height="31" border="0" alt="Yahoo!">
+        </a>
+
+        <div>
+            <a href="http://www.yahoo.com">Yahoo!</a>
+            - <a href="http://help.yahoo.com">Help</a>
+        </div>
+    </div>
+    <div id="bd">
+        <h1>HTTP Status 400 - Bad Request</h1>
+
+        <p>
+            <b>type</b>
+            Exception report
+        </p>
+
+        <p>
+            <b>message</b>
+            <u>Bad Request</u>
+        </p>
+
+        <p>
+            <b>description</b>
+            <u>Bad Request</u>
+        </p>
+
+        <p>
+            
+        </p>
+    </div>
+</div>
+</body>
+</html>
+
+2026-05-29 19:52:06,444 - ERROR - 3501.T error: argument of type 'NoneType' is not iterable
+2026-05-29 19:52:07,445 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 350A
+2026-05-29 19:52:18,118 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 3526.T"}}}
+2026-05-29 19:52:18,834 - ERROR - $3526.T: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-05-29 19:52:21,834 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 352A
+2026-05-29 19:52:26,385 - ERROR - 3537.T error: Expecting value: line 1 column 1 (char 0)
+2026-05-29 19:54:26,521 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 3655.T"}}}
+2026-05-29 19:54:27,200 - ERROR - $3655.T: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-05-29 19:54:34,198 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 365A
+2026-05-29 19:54:40,231 - INFO - 進捗: 900/1000 銘柄処理済み
+2026-05-29 19:54:52,506 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 366A
+2026-05-29 19:55:04,392 - ERROR - HTTP Error 400: <!doctype html public "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <title>Yahoo! - Error report</title>
+    <style>
+        /* nn4 hide */ /*/*/
+        body {
+        font: small/ 1.2em arial, helvetica, clean, sans-serif;
+        font: x-small;
+        text-align: center;
+        }
+
+        table {
+        font-size: inherit;
+        font: x-small;
+        }
+
+        html>body {
+        font: 83%/ 1.2em arial, helvetica, clean, sans-serif;
+        }
+
+        input {
+        font-size: 100%;
+        vertical-align: middle;
+        }
+
+        p,form {
+        margin: 0;
+        padding: 0;
+        }
+
+        p {
+        padding-bottom: 6px;
+        margin-bottom: 10px;
+        }
+
+        #doc {
+        width: 48.5em;
+        margin: 0 auto;
+        border: 1px solid #fff;
+        text-align: center;
+        }
+
+        #ygma {
+        text-align: right;
+        margin-bottom: 53px
+        }
+
+        #ygma img {
+        float: left;
+        }
+
+        #ygma div {
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 8px;
+        margin-left: 152px;
+        }
+
+        #bd {
+        clear: both;
+        text-align: left;
+        width: 75%;
+        margin: 0 auto 20px;
+        }
+
+        h1 {
+        font-size: 135%;
+        text-align: center;
+        margin: 0 0 15px;
+        }
+
+        legend {
+        display: none;
+        }
+
+        fieldset {
+        border: 0 solid #fff;
+        padding: .8em 0 .8em 4.5em;
+        }
+
+        form {
+        position: relative;
+        background: #eee;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-width: 1px 0;
+        }
+
+        #s1p {
+        width: 15em;
+        margin-right: .1em;
+        }
+
+        form span {
+        position: absolute;
+        left: 70%;
+        top: .8em;
+        }
+
+        form a {
+        font: 78%/ 1.2em arial;
+        display: block;
+        padding-left: .8em;
+        white-space: nowrap;
+        background: url(http://l.yimg.com/a/i/s/bullet.gif)
+        no-repeat left center;
+        }
+
+        form .sep {
+        display: none;
+        }
+
+        .more {
+        text-align: center;
+        }
+
+        #ft {
+        padding-top: 10px;
+        border-top: 1px solid #999;
+        }
+
+        #ft p {
+        text-align: center;
+        font: 78% arial;
+        }
+        /* end nn4 hide */
+    </style>
+</head>
+<body>
+<div id="doc">
+    <div id="ygma">
+        <a href="http://www.yahoo.com">
+            <img src="http://l.yimg.com/a/i/yahoo.gif" width="147"
+                 height="31" border="0" alt="Yahoo!">
+        </a>
+
+        <div>
+            <a href="http://www.yahoo.com">Yahoo!</a>
+            - <a href="http://help.yahoo.com">Help</a>
+        </div>
+    </div>
+    <div id="bd">
+        <h1>HTTP Status 400 - Bad Request</h1>
+
+        <p>
+            <b>type</b>
+            Exception report
+        </p>
+
+        <p>
+            <b>message</b>
+            <u>Bad Request</u>
+        </p>
+
+        <p>
+            <b>description</b>
+            <u>Bad Request</u>
+        </p>
+
+        <p>
+            
+        </p>
+    </div>
+</div>
+</body>
+</html>
+
+2026-05-29 19:55:12,037 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 367A
+2026-05-29 19:55:26,880 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 368A
+2026-05-29 19:55:45,165 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 369A
+2026-05-29 19:55:45,331 - ERROR - HTTP Error 400: <!doctype html public "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <title>Yahoo! - Error report</title>
+    <style>
+        /* nn4 hide */ /*/*/
+        body {
+        font: small/ 1.2em arial, helvetica, clean, sans-serif;
+        font: x-small;
+        text-align: center;
+        }
+
+        table {
+        font-size: inherit;
+        font: x-small;
+        }
+
+        html>body {
+        font: 83%/ 1.2em arial, helvetica, clean, sans-serif;
+        }
+
+        input {
+        font-size: 100%;
+        vertical-align: middle;
+        }
+
+        p,form {
+        margin: 0;
+        padding: 0;
+        }
+
+        p {
+        padding-bottom: 6px;
+        margin-bottom: 10px;
+        }
+
+        #doc {
+        width: 48.5em;
+        margin: 0 auto;
+        border: 1px solid #fff;
+        text-align: center;
+        }
+
+        #ygma {
+        text-align: right;
+        margin-bottom: 53px
+        }
+
+        #ygma img {
+        float: left;
+        }
+
+        #ygma div {
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 8px;
+        margin-left: 152px;
+        }
+
+        #bd {
+        clear: both;
+        text-align: left;
+        width: 75%;
+        margin: 0 auto 20px;
+        }
+
+        h1 {
+        font-size: 135%;
+        text-align: center;
+        margin: 0 0 15px;
+        }
+
+        legend {
+        display: none;
+        }
+
+        fieldset {
+        border: 0 solid #fff;
+        padding: .8em 0 .8em 4.5em;
+        }
+
+        form {
+        position: relative;
+        background: #eee;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-width: 1px 0;
+        }
+
+        #s1p {
+        width: 15em;
+        margin-right: .1em;
+        }
+
+        form span {
+        position: absolute;
+        left: 70%;
+        top: .8em;
+        }
+
+        form a {
+        font: 78%/ 1.2em arial;
+        display: block;
+        padding-left: .8em;
+        white-space: nowrap;
+        background: url(http://l.yimg.com/a/i/s/bullet.gif)
+        no-repeat left center;
+        }
+
+        form .sep {
+        display: none;
+        }
+
+        .more {
+        text-align: center;
+        }
+
+        #ft {
+        padding-top: 10px;
+        border-top: 1px solid #999;
+        }
+
+        #ft p {
+        text-align: center;
+        font: 78% arial;
+        }
+        /* end nn4 hide */
+    </style>
+</head>
+<body>
+<div id="doc">
+    <div id="ygma">
+        <a href="http://www.yahoo.com">
+            <img src="http://l.yimg.com/a/i/yahoo.gif" width="147"
+                 height="31" border="0" alt="Yahoo!">
+        </a>
+
+        <div>
+            <a href="http://www.yahoo.com">Yahoo!</a>
+            - <a href="http://help.yahoo.com">Help</a>
+        </div>
+    </div>
+    <div id="bd">
+        <h1>HTTP Status 400 - Bad Request</h1>
+
+        <p>
+            <b>type</b>
+            Exception report
+        </p>
+
+        <p>
+            <b>message</b>
+            <u>Bad Request</u>
+        </p>
+
+        <p>
+            <b>description</b>
+            <u>Bad Request</u>
+        </p>
+
+        <p>
+            
+        </p>
+    </div>
+</div>
+</body>
+</html>
+
+2026-05-29 19:55:45,331 - ERROR - 369A.T error: argument of type 'NoneType' is not iterable
+2026-05-29 19:56:00,089 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 372A
+2026-05-29 19:56:04,320 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 373A
+2026-05-29 19:56:44,916 - ERROR - HTTP Error 400: <!doctype html public "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <title>Yahoo! - Error report</title>
+    <style>
+        /* nn4 hide */ /*/*/
+        body {
+        font: small/ 1.2em arial, helvetica, clean, sans-serif;
+        font: x-small;
+        text-align: center;
+        }
+
+        table {
+        font-size: inherit;
+        font: x-small;
+        }
+
+        html>body {
+        font: 83%/ 1.2em arial, helvetica, clean, sans-serif;
+        }
+
+        input {
+        font-size: 100%;
+        vertical-align: middle;
+        }
+
+        p,form {
+        margin: 0;
+        padding: 0;
+        }
+
+        p {
+        padding-bottom: 6px;
+        margin-bottom: 10px;
+        }
+
+        #doc {
+        width: 48.5em;
+        margin: 0 auto;
+        border: 1px solid #fff;
+        text-align: center;
+        }
+
+        #ygma {
+        text-align: right;
+        margin-bottom: 53px
+        }
+
+        #ygma img {
+        float: left;
+        }
+
+        #ygma div {
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 8px;
+        margin-left: 152px;
+        }
+
+        #bd {
+        clear: both;
+        text-align: left;
+        width: 75%;
+        margin: 0 auto 20px;
+        }
+
+        h1 {
+        font-size: 135%;
+        text-align: center;
+        margin: 0 0 15px;
+        }
+
+        legend {
+        display: none;
+        }
+
+        fieldset {
+        border: 0 solid #fff;
+        padding: .8em 0 .8em 4.5em;
+        }
+
+        form {
+        position: relative;
+        background: #eee;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-width: 1px 0;
+        }
+
+        #s1p {
+        width: 15em;
+        margin-right: .1em;
+        }
+
+        form span {
+        position: absolute;
+        left: 70%;
+        top: .8em;
+        }
+
+        form a {
+        font: 78%/ 1.2em arial;
+        display: block;
+        padding-left: .8em;
+        white-space: nowrap;
+        background: url(http://l.yimg.com/a/i/s/bullet.gif)
+        no-repeat left center;
+        }
+
+        form .sep {
+        display: none;
+        }
+
+        .more {
+        text-align: center;
+        }
+
+        #ft {
+        padding-top: 10px;
+        border-top: 1px solid #999;
+        }
+
+        #ft p {
+        text-align: center;
+        font: 78% arial;
+        }
+        /* end nn4 hide */
+    </style>
+</head>
+<body>
+<div id="doc">
+    <div id="ygma">
+        <a href="http://www.yahoo.com">
+            <img src="http://l.yimg.com/a/i/yahoo.gif" width="147"
+                 height="31" border="0" alt="Yahoo!">
+        </a>
+
+        <div>
+            <a href="http://www.yahoo.com">Yahoo!</a>
+            - <a href="http://help.yahoo.com">Help</a>
+        </div>
+    </div>
+    <div id="bd">
+        <h1>HTTP Status 400 - Bad Request</h1>
+
+        <p>
+            <b>type</b>
+            Exception report
+        </p>
+
+        <p>
+            <b>message</b>
+            <u>Bad Request</u>
+        </p>
+
+        <p>
+            <b>description</b>
+            <u>Bad Request</u>
+        </p>
+
+        <p>
+            
+        </p>
+    </div>
+</div>
+</body>
+</html>
+
+2026-05-29 19:56:44,916 - ERROR - 3778.T error: argument of type 'NoneType' is not iterable
+2026-05-29 19:56:48,083 - ERROR - HTTP Error 400: <!doctype html public "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <title>Yahoo! - Error report</title>
+    <style>
+        /* nn4 hide */ /*/*/
+        body {
+        font: small/ 1.2em arial, helvetica, clean, sans-serif;
+        font: x-small;
+        text-align: center;
+        }
+
+        table {
+        font-size: inherit;
+        font: x-small;
+        }
+
+        html>body {
+        font: 83%/ 1.2em arial, helvetica, clean, sans-serif;
+        }
+
+        input {
+        font-size: 100%;
+        vertical-align: middle;
+        }
+
+        p,form {
+        margin: 0;
+        padding: 0;
+        }
+
+        p {
+        padding-bottom: 6px;
+        margin-bottom: 10px;
+        }
+
+        #doc {
+        width: 48.5em;
+        margin: 0 auto;
+        border: 1px solid #fff;
+        text-align: center;
+        }
+
+        #ygma {
+        text-align: right;
+        margin-bottom: 53px
+        }
+
+        #ygma img {
+        float: left;
+        }
+
+        #ygma div {
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 8px;
+        margin-left: 152px;
+        }
+
+        #bd {
+        clear: both;
+        text-align: left;
+        width: 75%;
+        margin: 0 auto 20px;
+        }
+
+        h1 {
+        font-size: 135%;
+        text-align: center;
+        margin: 0 0 15px;
+        }
+
+        legend {
+        display: none;
+        }
+
+        fieldset {
+        border: 0 solid #fff;
+        padding: .8em 0 .8em 4.5em;
+        }
+
+        form {
+        position: relative;
+        background: #eee;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-width: 1px 0;
+        }
+
+        #s1p {
+        width: 15em;
+        margin-right: .1em;
+        }
+
+        form span {
+        position: absolute;
+        left: 70%;
+        top: .8em;
+        }
+
+        form a {
+        font: 78%/ 1.2em arial;
+        display: block;
+        padding-left: .8em;
+        white-space: nowrap;
+        background: url(http://l.yimg.com/a/i/s/bullet.gif)
+        no-repeat left center;
+        }
+
+        form .sep {
+        display: none;
+        }
+
+        .more {
+        text-align: center;
+        }
+
+        #ft {
+        padding-top: 10px;
+        border-top: 1px solid #999;
+        }
+
+        #ft p {
+        text-align: center;
+        font: 78% arial;
+        }
+        /* end nn4 hide */
+    </style>
+</head>
+<body>
+<div id="doc">
+    <div id="ygma">
+        <a href="http://www.yahoo.com">
+            <img src="http://l.yimg.com/a/i/yahoo.gif" width="147"
+                 height="31" border="0" alt="Yahoo!">
+        </a>
+
+        <div>
+            <a href="http://www.yahoo.com">Yahoo!</a>
+            - <a href="http://help.yahoo.com">Help</a>
+        </div>
+    </div>
+    <div id="bd">
+        <h1>HTTP Status 400 - Bad Request</h1>
+
+        <p>
+            <b>type</b>
+            Exception report
+        </p>
+
+        <p>
+            <b>message</b>
+            <u>Bad Request</u>
+        </p>
+
+        <p>
+            <b>description</b>
+            <u>Bad Request</u>
+        </p>
+
+        <p>
+            
+        </p>
+    </div>
+</div>
+</body>
+</html>
+
+2026-05-29 19:56:51,795 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 378A
+2026-05-29 19:58:00,087 - INFO - 進捗: 1000/1000 銘柄処理済み
+2026-05-29 19:58:00,138 - INFO - 📄 Part CSV出力: Export/20260529_1.csv
+2026-05-29 19:58:00,183 - INFO - 📊 結合CSV出力: Export/20260529_combined.csv
