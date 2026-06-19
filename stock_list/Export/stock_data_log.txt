@@ -36896,3 +36896,81 @@
 2026-06-19 19:04:56,334 - INFO - 進捗: 1000/1000 銘柄処理済み
 2026-06-19 19:04:56,386 - INFO - 📄 Part CSV出力: Export/20260619_1.csv
 2026-06-19 19:04:56,437 - INFO - 📊 結合CSV出力: Export/20260619_combined.csv
+2026-06-19 19:05:46,792 - INFO - yfinance version: 1.4.1
+2026-06-19 19:06:02,831 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 386A
+2026-06-19 19:06:09,482 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 387A
+2026-06-19 19:07:29,491 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 3924.T"}}}
+2026-06-19 19:07:30,886 - ERROR - $3924.T: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-19 19:08:41,130 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 3961.T"}}}
+2026-06-19 19:08:42,140 - ERROR - $3961.T: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-19 19:10:15,303 - INFO - 進捗: 100/1000 銘柄処理済み
+2026-06-19 19:10:46,260 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 402A
+2026-06-19 19:12:10,033 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 407A
+2026-06-19 19:12:12,740 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 4080.T"}}}
+2026-06-19 19:12:13,704 - ERROR - $4080.T: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-19 19:12:39,877 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 409A
+2026-06-19 19:12:52,624 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 410A
+2026-06-19 19:13:18,970 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 414A
+2026-06-19 19:13:23,860 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 415A
+2026-06-19 19:13:37,915 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 416A
+2026-06-19 19:14:02,697 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 417A
+2026-06-19 19:14:28,422 - INFO - 進捗: 200/1000 銘柄処理済み
+2026-06-19 19:15:03,726 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 421A
+2026-06-19 19:15:34,507 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 423A
+2026-06-19 19:16:45,725 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 428A
+2026-06-19 19:16:55,879 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 429A
+2026-06-19 19:17:16,431 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 431A
+2026-06-19 19:17:31,638 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 4333.T"}}}
+2026-06-19 19:17:32,673 - ERROR - $4333.T: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-19 19:18:23,821 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 436A
+2026-06-19 19:18:38,769 - INFO - 進捗: 300/1000 銘柄処理済み
+2026-06-19 19:19:13,141 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 438A
+2026-06-19 19:20:13,936 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 441A
+2026-06-19 19:20:36,181 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 442A
+2026-06-19 19:21:43,045 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 446A
+2026-06-19 19:22:48,772 - INFO - 進捗: 400/1000 銘柄処理済み
+2026-06-19 19:24:14,171 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 456A
+2026-06-19 19:25:16,980 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 460A
+2026-06-19 19:25:58,800 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 462A
+2026-06-19 19:26:11,478 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 463A
+2026-06-19 19:26:24,209 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 464A
+2026-06-19 19:27:01,842 - INFO - 進捗: 500/1000 銘柄処理済み
+2026-06-19 19:27:29,988 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 4690.T"}}}
+2026-06-19 19:27:31,075 - ERROR - $4690.T: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-19 19:27:37,057 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 469A
+2026-06-19 19:28:02,134 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 471A
+2026-06-19 19:28:17,085 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 472A
+2026-06-19 19:28:32,545 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 4745.T"}}}
+2026-06-19 19:28:33,755 - ERROR - $4745.T: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-19 19:28:49,741 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 475A
+2026-06-19 19:29:15,157 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 476A
+2026-06-19 19:29:28,822 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 477A
+2026-06-19 19:29:36,511 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 478A
+2026-06-19 19:29:41,561 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 479A
+2026-06-19 19:29:51,009 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 480A
+2026-06-19 19:30:33,939 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 483A
+2026-06-19 19:30:48,885 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 485A
+2026-06-19 19:31:18,401 - INFO - 進捗: 600/1000 銘柄処理済み
+2026-06-19 19:32:33,424 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 4957.T"}}}
+2026-06-19 19:32:34,371 - ERROR - $4957.T: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-19 19:33:46,277 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 5017.T"}}}
+2026-06-19 19:33:47,333 - ERROR - $5017.T: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-19 19:34:35,946 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 50765
+2026-06-19 19:35:28,897 - INFO - 進捗: 700/1000 銘柄処理済み
+2026-06-19 19:35:49,480 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 5191.T"}}}
+2026-06-19 19:35:50,638 - ERROR - $5191.T: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-19 19:38:17,382 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 5352.T"}}}
+2026-06-19 19:38:18,384 - ERROR - $5352.T: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-19 19:38:42,331 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 5386.T"}}}
+2026-06-19 19:38:43,496 - ERROR - $5386.T: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-19 19:39:35,321 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 5476.T"}}}
+2026-06-19 19:39:36,409 - ERROR - $5476.T: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-19 19:39:40,135 - INFO - 進捗: 800/1000 銘柄処理済み
+2026-06-19 19:40:47,127 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 5596.T"}}}
+2026-06-19 19:40:48,162 - ERROR - $5596.T: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-19 19:43:50,946 - INFO - 進捗: 900/1000 銘柄処理済み
+2026-06-19 19:47:42,214 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 6060.T"}}}
+2026-06-19 19:47:43,400 - ERROR - $6060.T: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-06-19 19:48:01,662 - INFO - 進捗: 1000/1000 銘柄処理済み
+2026-06-19 19:48:01,712 - INFO - 📄 Part CSV出力: Export/20260619_2.csv
+2026-06-19 19:48:01,807 - INFO - 📊 結合CSV出力: Export/20260619_combined.csv
