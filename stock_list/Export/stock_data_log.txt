@@ -37960,3 +37960,31 @@
 2026-07-10 20:47:20,208 - INFO - 進捗: 1000/1000 銘柄処理済み
 2026-07-10 20:47:20,270 - INFO - 📄 Part CSV出力: Export/20260710_3.csv
 2026-07-10 20:47:20,385 - INFO - 📊 結合CSV出力: Export/20260710_combined.csv
+2026-07-10 20:48:15,233 - INFO - yfinance version: 1.5.1
+2026-07-10 20:48:32,994 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 7923.T"}}}
+2026-07-10 20:48:33,970 - ERROR - $7923.T: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-07-10 20:50:33,254 - ERROR - $7999.T: possibly delisted; no price data found  (period=1y)
+2026-07-10 20:52:14,635 - INFO - 進捗: 100/783 銘柄処理済み
+2026-07-10 20:54:58,169 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 8209.T"}}}
+2026-07-10 20:54:59,374 - ERROR - $8209.T: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-07-10 20:56:20,318 - INFO - 進捗: 200/783 銘柄処理済み
+2026-07-10 20:58:16,268 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 8515.T"}}}
+2026-07-10 20:58:17,092 - ERROR - $8515.T: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-07-10 21:00:46,425 - INFO - 進捗: 300/783 銘柄処理済み
+2026-07-10 21:01:23,563 - ERROR - Failed to get ticker '8818.T' reason: Expecting value: line 1 column 1 (char 0)
+2026-07-10 21:04:44,984 - INFO - 進捗: 400/783 銘柄処理済み
+2026-07-10 21:06:03,864 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 92025
+2026-07-10 21:08:37,001 - INFO - 進捗: 500/783 銘柄処理済み
+2026-07-10 21:10:50,626 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 94345
+2026-07-10 21:10:53,310 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 94346
+2026-07-10 21:12:30,127 - INFO - 進捗: 600/783 銘柄処理済み
+2026-07-10 21:13:01,452 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 9600.T"}}}
+2026-07-10 21:13:02,533 - ERROR - $9600.T: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-07-10 21:14:55,855 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 9719.T"}}}
+2026-07-10 21:14:56,847 - ERROR - $9719.T: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-07-10 21:15:59,104 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 9776.T"}}}
+2026-07-10 21:15:59,963 - ERROR - $9776.T: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+2026-07-10 21:16:22,556 - INFO - 進捗: 700/783 銘柄処理済み
+2026-07-10 21:16:25,890 - ERROR - Failed to get ticker '9812.T' reason: Expecting value: line 1 column 1 (char 0)
+2026-07-10 21:19:43,150 - INFO - 📄 Part CSV出力: Export/20260710_4.csv
+2026-07-10 21:19:43,299 - INFO - 📊 結合CSV出力: Export/20260710_combined.csv
