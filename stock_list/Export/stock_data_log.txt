@@ -39636,3 +39636,35 @@
 2026-08-14 19:22:16,609 - INFO - 進捗: 1000/1000 銘柄処理済み
 2026-08-14 19:22:16,695 - INFO - 📄 Part CSV出力: Export/20260814_3.csv
 2026-08-14 19:22:16,811 - INFO - 📊 結合CSV出力: Export/20260814_combined.csv
+2026-08-14 19:23:22,411 - INFO - yfinance version: 1.6.0
+2026-08-14 19:23:40,123 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 7923.T"}}}
+2026-08-14 19:23:41,291 - ERROR - $7923.T: No data found, symbol may be delisted
+2026-08-14 19:23:42,531 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 7925.T"}}}
+2026-08-14 19:23:43,659 - ERROR - $7925.T: No data found, symbol may be delisted
+2026-08-14 19:25:19,234 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 7999.T"}}}
+2026-08-14 19:25:20,243 - ERROR - $7999.T: No data found, symbol may be delisted
+2026-08-14 19:26:46,661 - INFO - 進捗: 100/783 銘柄処理済み
+2026-08-14 19:29:11,159 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 8209.T"}}}
+2026-08-14 19:29:12,158 - ERROR - $8209.T: No data found, symbol may be delisted
+2026-08-14 19:30:09,329 - ERROR - $8289.T: possibly delisted; no price data found  (period=1y)
+2026-08-14 19:30:12,432 - INFO - 進捗: 200/783 銘柄処理済み
+2026-08-14 19:31:50,261 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 8515.T"}}}
+2026-08-14 19:31:51,298 - ERROR - $8515.T: No data found, symbol may be delisted
+2026-08-14 19:33:33,609 - INFO - 進捗: 300/783 銘柄処理済み
+2026-08-14 19:36:53,242 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 9067.T"}}}
+2026-08-14 19:36:54,299 - ERROR - $9067.T: No data found, symbol may be delisted
+2026-08-14 19:36:57,414 - INFO - 進捗: 400/783 銘柄処理済み
+2026-08-14 19:38:09,924 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 92025
+2026-08-14 19:40:18,434 - INFO - 進捗: 500/783 銘柄処理済み
+2026-08-14 19:42:14,149 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 94345
+2026-08-14 19:42:16,025 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 94346
+2026-08-14 19:43:40,312 - INFO - 進捗: 600/783 銘柄処理済み
+2026-08-14 19:44:08,260 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 9600.T"}}}
+2026-08-14 19:44:09,270 - ERROR - $9600.T: No data found, symbol may be delisted
+2026-08-14 19:45:50,423 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 9719.T"}}}
+2026-08-14 19:45:51,521 - ERROR - $9719.T: No data found, symbol may be delisted
+2026-08-14 19:46:44,989 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 9776.T"}}}
+2026-08-14 19:46:45,919 - ERROR - $9776.T: No data found, symbol may be delisted
+2026-08-14 19:47:03,022 - INFO - 進捗: 700/783 銘柄処理済み
+2026-08-14 19:49:55,298 - INFO - 📄 Part CSV出力: Export/20260814_4.csv
+2026-08-14 19:49:55,420 - INFO - 📊 結合CSV出力: Export/20260814_combined.csv
