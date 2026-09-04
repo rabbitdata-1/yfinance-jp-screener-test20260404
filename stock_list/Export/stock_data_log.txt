@@ -40758,3 +40758,42 @@
 2026-09-04 20:40:04,222 - INFO - 進捗: 1000/1000 銘柄処理済み
 2026-09-04 20:40:04,291 - INFO - 📄 Part CSV出力: Export/20260904_3.csv
 2026-09-04 20:40:04,432 - INFO - 📊 結合CSV出力: Export/20260904_combined.csv
+2026-09-04 20:41:03,555 - INFO - yfinance version: 1.7.0
+2026-09-04 20:41:16,627 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 7922.T"}}}
+2026-09-04 20:41:17,243 - ERROR - $7922.T: No data found, symbol may be delisted
+2026-09-04 20:41:18,395 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 7923.T"}}}
+2026-09-04 20:41:19,183 - ERROR - $7923.T: No data found, symbol may be delisted
+2026-09-04 20:41:20,369 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 7925.T"}}}
+2026-09-04 20:41:21,195 - ERROR - $7925.T: No data found, symbol may be delisted
+2026-09-04 20:42:46,045 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 7999.T"}}}
+2026-09-04 20:42:46,821 - ERROR - $7999.T: No data found, symbol may be delisted
+2026-09-04 20:44:02,559 - INFO - 進捗: 100/783 銘柄処理済み
+2026-09-04 20:46:07,922 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 8209.T"}}}
+2026-09-04 20:46:08,723 - ERROR - $8209.T: No data found, symbol may be delisted
+2026-09-04 20:46:57,790 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 8289.T"}}}
+2026-09-04 20:46:58,401 - ERROR - $8289.T: No data found, symbol may be delisted
+2026-09-04 20:47:01,038 - INFO - 進捗: 200/783 銘柄処理済み
+2026-09-04 20:48:26,513 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 8515.T"}}}
+2026-09-04 20:48:27,116 - ERROR - $8515.T: No data found, symbol may be delisted
+2026-09-04 20:49:55,652 - INFO - 進捗: 300/783 銘柄処理済み
+2026-09-04 20:52:50,616 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 9067.T"}}}
+2026-09-04 20:52:51,331 - ERROR - $9067.T: No data found, symbol may be delisted
+2026-09-04 20:52:54,128 - INFO - 進捗: 400/783 銘柄処理済み
+2026-09-04 20:53:57,594 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 92025
+2026-09-04 20:55:47,996 - INFO - 進捗: 500/783 銘柄処理済み
+2026-09-04 20:56:05,717 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 9338.T"}}}
+2026-09-04 20:56:06,284 - ERROR - $9338.T: No data found, symbol may be delisted
+2026-09-04 20:57:30,406 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 94345
+2026-09-04 20:57:32,067 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 94346
+2026-09-04 20:58:44,296 - INFO - 進捗: 600/783 銘柄処理済み
+2026-09-04 20:59:08,306 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 9600.T"}}}
+2026-09-04 20:59:09,213 - ERROR - $9600.T: No data found, symbol may be delisted
+2026-09-04 21:00:38,636 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 9719.T"}}}
+2026-09-04 21:00:39,222 - ERROR - $9719.T: No data found, symbol may be delisted
+2026-09-04 21:01:29,092 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 9776.T"}}}
+2026-09-04 21:01:29,674 - ERROR - $9776.T: No data found, symbol may be delisted
+2026-09-04 21:01:45,265 - INFO - 進捗: 700/783 銘柄処理済み
+2026-09-04 21:03:13,897 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 9927.T"}}}
+2026-09-04 21:03:15,273 - ERROR - $9927.T: No data found, symbol may be delisted
+2026-09-04 21:04:20,619 - INFO - 📄 Part CSV出力: Export/20260904_4.csv
+2026-09-04 21:04:20,803 - INFO - 📊 結合CSV出力: Export/20260904_combined.csv
