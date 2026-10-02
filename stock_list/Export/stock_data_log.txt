@@ -41962,3 +41962,176 @@
 2026-09-25 22:08:22,583 - ERROR - $9927.T: No data found, symbol may be delisted
 2026-09-25 22:09:16,155 - INFO - 📄 Part CSV出力: Export/20260925_4.csv
 2026-09-25 22:09:16,243 - INFO - 📊 結合CSV出力: Export/20260925_combined.csv
+2026-10-02 21:04:37,870 - INFO - yfinance version: 1.7.0
+2026-10-02 21:04:40,334 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 130A
+2026-10-02 21:04:45,935 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 135A
+2026-10-02 21:04:54,486 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 137A
+2026-10-02 21:05:04,727 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 138A
+2026-10-02 21:05:17,144 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 141A
+2026-10-02 21:05:22,170 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 142A
+2026-10-02 21:05:35,729 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 143A
+2026-10-02 21:05:45,526 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 145A
+2026-10-02 21:05:47,138 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 146A
+2026-10-02 21:05:48,884 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 147A
+2026-10-02 21:05:50,641 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 148A
+2026-10-02 21:05:54,552 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 149A
+2026-10-02 21:05:56,296 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 150A
+2026-10-02 21:06:03,269 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 151A
+2026-10-02 21:06:04,826 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 153A
+2026-10-02 21:06:06,546 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 155A
+2026-10-02 21:06:08,261 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 156A
+2026-10-02 21:06:09,975 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 157A
+2026-10-02 21:06:13,494 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 160A
+2026-10-02 21:06:18,741 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 166A
+2026-10-02 21:06:20,382 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 167A
+2026-10-02 21:06:22,216 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 168A
+2026-10-02 21:06:39,575 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 1726.T"}}}
+2026-10-02 21:06:40,347 - ERROR - $1726.T: No data found, symbol may be delisted
+2026-10-02 21:06:43,064 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 173A
+2026-10-02 21:06:46,429 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 175A
+2026-10-02 21:06:54,898 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 176A
+2026-10-02 21:06:55,087 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 176A.T"}}}
+2026-10-02 21:06:55,691 - ERROR - $176A.T: No data found, symbol may be delisted
+2026-10-02 21:06:58,460 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 1776.T"}}}
+2026-10-02 21:06:59,047 - ERROR - $1776.T: No data found, symbol may be delisted
+2026-10-02 21:07:00,048 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 177A
+2026-10-02 21:07:31,052 - INFO - 進捗: 100/1000 銘柄処理済み
+2026-10-02 21:07:50,376 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 1841.T"}}}
+2026-10-02 21:07:51,052 - ERROR - $1841.T: No data found, symbol may be delisted
+2026-10-02 21:07:57,132 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 184A
+2026-10-02 21:08:10,892 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 186A
+2026-10-02 21:08:35,759 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 189A
+2026-10-02 21:08:43,086 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 190A
+2026-10-02 21:08:57,234 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 192A
+2026-10-02 21:09:16,961 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 1949.T"}}}
+2026-10-02 21:09:17,658 - ERROR - $1949.T: No data found, symbol may be delisted
+2026-10-02 21:09:18,659 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 194A
+2026-10-02 21:09:27,652 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 195A
+2026-10-02 21:09:45,318 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 196A
+2026-10-02 21:09:53,802 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 197A
+2026-10-02 21:10:00,669 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 198A
+2026-10-02 21:10:16,357 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 202A
+2026-10-02 21:10:16,548 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 202A.T"}}}
+2026-10-02 21:10:17,081 - ERROR - $202A.T: No data found, symbol may be delisted
+2026-10-02 21:10:21,466 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 205A
+2026-10-02 21:10:24,879 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 206A
+2026-10-02 21:10:26,589 - INFO - 進捗: 200/1000 銘柄処理済み
+2026-10-02 21:10:26,589 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 208A
+2026-10-02 21:10:36,955 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 211A
+2026-10-02 21:10:47,066 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 212A
+2026-10-02 21:11:11,228 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 215A
+2026-10-02 21:11:38,779 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 218A
+2026-10-02 21:11:44,075 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 2196.T"}}}
+2026-10-02 21:11:44,790 - ERROR - $2196.T: No data found, symbol may be delisted
+2026-10-02 21:11:47,537 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 219A
+2026-10-02 21:11:59,754 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 220A
+2026-10-02 21:12:38,667 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 228A
+2026-10-02 21:13:20,629 - INFO - 進捗: 300/1000 銘柄処理済み
+2026-10-02 21:13:33,243 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 2344.T"}}}
+2026-10-02 21:13:33,925 - ERROR - $2344.T: No data found, symbol may be delisted
+2026-10-02 21:13:50,981 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 2374.T"}}}
+2026-10-02 21:13:51,628 - ERROR - $2374.T: No data found, symbol may be delisted
+2026-10-02 21:14:04,615 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 2389.T"}}}
+2026-10-02 21:14:05,413 - ERROR - $2389.T: No data found, symbol may be delisted
+2026-10-02 21:14:23,829 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 241A
+2026-10-02 21:14:47,140 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 244A
+2026-10-02 21:14:52,306 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 245A
+2026-10-02 21:15:00,567 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 246A
+2026-10-02 21:15:09,302 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 247A
+2026-10-02 21:15:23,395 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 248A
+2026-10-02 21:15:41,476 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 250A
+2026-10-02 21:15:46,789 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 253A
+2026-10-02 21:15:48,734 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 2540.T"}}}
+2026-10-02 21:15:49,530 - ERROR - $2540.T: No data found, symbol may be delisted
+2026-10-02 21:15:50,530 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 254A
+2026-10-02 21:15:52,638 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 255A
+2026-10-02 21:15:54,342 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 256A
+2026-10-02 21:16:10,182 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 25935
+2026-10-02 21:16:15,492 - INFO - 進捗: 400/1000 銘柄処理済み
+2026-10-02 21:16:22,624 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 261A
+2026-10-02 21:16:24,409 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 262A
+2026-10-02 21:16:26,152 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 264A
+2026-10-02 21:16:36,510 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 265A
+2026-10-02 21:17:01,804 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 2686.T"}}}
+2026-10-02 21:17:02,492 - ERROR - $2686.T: No data found, symbol may be delisted
+2026-10-02 21:17:07,018 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 268A
+2026-10-02 21:17:08,972 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 2692.T"}}}
+2026-10-02 21:17:09,658 - ERROR - $2692.T: No data found, symbol may be delisted
+2026-10-02 21:17:17,385 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 269A
+2026-10-02 21:17:43,503 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 2743.T"}}}
+2026-10-02 21:17:44,381 - ERROR - $2743.T: No data found, symbol may be delisted
+2026-10-02 21:17:48,768 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 274A
+2026-10-02 21:18:01,152 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 2763.T"}}}
+2026-10-02 21:18:01,772 - ERROR - $2763.T: No data found, symbol may be delisted
+2026-10-02 21:18:09,605 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 276A
+2026-10-02 21:18:14,593 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 277A
+2026-10-02 21:18:24,915 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 278A
+2026-10-02 21:18:47,893 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 280A
+2026-10-02 21:19:03,266 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 281A
+2026-10-02 21:19:08,333 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 285A
+2026-10-02 21:19:10,057 - INFO - 進捗: 500/1000 銘柄処理済み
+2026-10-02 21:19:10,057 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 286A
+2026-10-02 21:19:22,283 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 287A
+2026-10-02 21:19:29,306 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 288A
+2026-10-02 21:19:44,517 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 290A
+2026-10-02 21:19:57,972 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 291A
+2026-10-02 21:20:28,384 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 296A
+2026-10-02 21:20:35,112 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 297A
+2026-10-02 21:20:47,558 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 298A
+2026-10-02 21:20:57,785 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 299A
+2026-10-02 21:21:06,370 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 300A
+2026-10-02 21:21:20,314 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 302A
+2026-10-02 21:21:32,745 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 303A
+2026-10-02 21:21:44,594 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 304A
+2026-10-02 21:22:02,194 - INFO - 進捗: 600/1000 銘柄処理済み
+2026-10-02 21:22:33,345 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 3094.T"}}}
+2026-10-02 21:22:34,057 - ERROR - $3094.T: No data found, symbol may be delisted
+2026-10-02 21:24:25,049 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 3198.T"}}}
+2026-10-02 21:24:25,841 - ERROR - $3198.T: No data found, symbol may be delisted
+2026-10-02 21:24:28,528 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 319A
+2026-10-02 21:24:52,767 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 323A
+2026-10-02 21:24:54,393 - INFO - 進捗: 700/1000 銘柄処理済み
+2026-10-02 21:25:02,921 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 324A
+2026-10-02 21:25:06,362 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 325A
+2026-10-02 21:25:13,122 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 3271.T"}}}
+2026-10-02 21:25:13,808 - ERROR - $3271.T: No data found, symbol may be delisted
+2026-10-02 21:25:30,460 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 3294.T"}}}
+2026-10-02 21:25:31,015 - ERROR - $3294.T: No data found, symbol may be delisted
+2026-10-02 21:25:41,116 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 330A
+2026-10-02 21:25:46,325 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 331A
+2026-10-02 21:25:56,800 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 332A
+2026-10-02 21:26:02,069 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 334A
+2026-10-02 21:26:14,276 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 335A
+2026-10-02 21:26:19,505 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 336A
+2026-10-02 21:26:38,308 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 338A
+2026-10-02 21:26:52,588 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 339A
+2026-10-02 21:27:02,752 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 340A
+2026-10-02 21:27:11,076 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 341A
+2026-10-02 21:27:33,499 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 343A
+2026-10-02 21:27:46,805 - INFO - 進捗: 800/1000 銘柄処理済み
+2026-10-02 21:28:27,615 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 350A
+2026-10-02 21:28:36,730 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 3526.T"}}}
+2026-10-02 21:28:37,451 - ERROR - $3526.T: No data found, symbol may be delisted
+2026-10-02 21:28:40,204 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 352A
+2026-10-02 21:28:49,131 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 3541.T"}}}
+2026-10-02 21:28:49,760 - ERROR - $3541.T: No data found, symbol may be delisted
+2026-10-02 21:28:56,533 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 3546.T"}}}
+2026-10-02 21:28:57,133 - ERROR - $3546.T: No data found, symbol may be delisted
+2026-10-02 21:29:36,363 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 3593.T"}}}
+2026-10-02 21:29:37,193 - ERROR - $3593.T: No data found, symbol may be delisted
+2026-10-02 21:30:28,329 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 3655.T"}}}
+2026-10-02 21:30:29,082 - ERROR - $3655.T: No data found, symbol may be delisted
+2026-10-02 21:30:35,218 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 365A
+2026-10-02 21:30:40,397 - INFO - 進捗: 900/1000 銘柄処理済み
+2026-10-02 21:30:50,896 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 366A
+2026-10-02 21:31:07,565 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 367A
+2026-10-02 21:31:11,036 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 3681.T"}}}
+2026-10-02 21:31:11,856 - ERROR - $3681.T: No data found, symbol may be delisted
+2026-10-02 21:31:19,862 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 368A
+2026-10-02 21:31:35,403 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 369A
+2026-10-02 21:31:48,754 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 372A
+2026-10-02 21:31:52,087 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 373A
+2026-10-02 21:32:33,271 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 378A
+2026-10-02 21:33:30,829 - INFO - 進捗: 1000/1000 銘柄処理済み
+2026-10-02 21:33:30,879 - INFO - 📄 Part CSV出力: Export/20261002_1.csv
+2026-10-02 21:33:30,910 - INFO - 📊 結合CSV出力: Export/20261002_combined.csv
