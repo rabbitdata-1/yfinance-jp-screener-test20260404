@@ -44345,3 +44345,44 @@
 2026-11-06 23:28:54,276 - INFO - 進捗: 1000/1000 銘柄処理済み
 2026-11-06 23:28:54,324 - INFO - 📄 Part CSV出力: Export/20261106_3.csv
 2026-11-06 23:28:54,443 - INFO - 📊 結合CSV出力: Export/20261106_combined.csv
+2026-11-06 23:30:06,197 - INFO - yfinance version: 1.8.0
+2026-11-06 23:30:19,287 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 7922.T"}}}
+2026-11-06 23:30:19,852 - ERROR - $7922.T: No data found, symbol may be delisted
+2026-11-06 23:30:21,027 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 7923.T"}}}
+2026-11-06 23:30:21,808 - ERROR - $7923.T: No data found, symbol may be delisted
+2026-11-06 23:30:22,961 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 7925.T"}}}
+2026-11-06 23:30:23,536 - ERROR - $7925.T: No data found, symbol may be delisted
+2026-11-06 23:30:39,284 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 7940.T"}}}
+2026-11-06 23:30:39,987 - ERROR - $7940.T: No data found, symbol may be delisted
+2026-11-06 23:31:48,379 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 7999.T"}}}
+2026-11-06 23:31:49,187 - ERROR - $7999.T: No data found, symbol may be delisted
+2026-11-06 23:33:03,065 - INFO - 進捗: 100/783 銘柄処理済み
+2026-11-06 23:35:04,882 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 8209.T"}}}
+2026-11-06 23:35:05,590 - ERROR - $8209.T: No data found, symbol may be delisted
+2026-11-06 23:35:53,999 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 8289.T"}}}
+2026-11-06 23:35:54,762 - ERROR - $8289.T: No data found, symbol may be delisted
+2026-11-06 23:35:57,406 - INFO - 進捗: 200/783 銘柄処理済み
+2026-11-06 23:37:21,621 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 8515.T"}}}
+2026-11-06 23:37:22,396 - ERROR - $8515.T: No data found, symbol may be delisted
+2026-11-06 23:38:49,699 - INFO - 進捗: 300/783 銘柄処理済み
+2026-11-06 23:41:41,498 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 9067.T"}}}
+2026-11-06 23:41:42,236 - ERROR - $9067.T: No data found, symbol may be delisted
+2026-11-06 23:41:44,893 - INFO - 進捗: 400/783 銘柄処理済み
+2026-11-06 23:42:46,934 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 92025
+2026-11-06 23:44:37,654 - INFO - 進捗: 500/783 銘柄処理済み
+2026-11-06 23:44:55,054 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 9338.T"}}}
+2026-11-06 23:44:55,665 - ERROR - $9338.T: No data found, symbol may be delisted
+2026-11-06 23:46:20,914 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 94345
+2026-11-06 23:46:22,773 - WARNING - 市場タイプを判定できませんでした（デフォルト: JP）: 94346
+2026-11-06 23:47:34,308 - INFO - 進捗: 600/783 銘柄処理済み
+2026-11-06 23:47:58,262 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 9600.T"}}}
+2026-11-06 23:47:59,094 - ERROR - $9600.T: No data found, symbol may be delisted
+2026-11-06 23:49:25,724 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 9719.T"}}}
+2026-11-06 23:49:26,401 - ERROR - $9719.T: No data found, symbol may be delisted
+2026-11-06 23:50:12,780 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 9776.T"}}}
+2026-11-06 23:50:13,488 - ERROR - $9776.T: No data found, symbol may be delisted
+2026-11-06 23:50:28,594 - INFO - 進捗: 700/783 銘柄処理済み
+2026-11-06 23:51:50,199 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 9927.T"}}}
+2026-11-06 23:51:50,889 - ERROR - $9927.T: No data found, symbol may be delisted
+2026-11-06 23:52:52,739 - INFO - 📄 Part CSV出力: Export/20261106_4.csv
+2026-11-06 23:52:52,887 - INFO - 📊 結合CSV出力: Export/20261106_combined.csv
